@@ -36,6 +36,9 @@ section {
   outline: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
 }
 .red-btn:hover,
 .red-btn:focus {
