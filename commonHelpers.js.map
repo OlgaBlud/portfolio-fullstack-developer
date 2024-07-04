@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
+{"version":3,"file":"commonHelpers.js","sources":["../src/main.js"],"sourcesContent":["document.getElementById('');\n\ndocument.getElementById('benefits-action-button').onclick = function () {\n  document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });\n};\n"],"names":[],"mappings":"ssBAAA,SAAS,eAAe,EAAE,EAE1B,SAAS,eAAe,wBAAwB,EAAE,QAAU,UAAY,CACtE,SAAS,eAAe,QAAQ,EAAE,eAAe,CAAE,SAAU,QAAQ,CAAE,CACzE"}
