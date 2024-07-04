@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 343px;
+}
+
+.about-me-general-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.about-me-general-text {
+  border-radius: 24px;
+  padding: 32px;
+
+  height: 500px;
+  background-color: #242527;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.167;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+.red-accent {
+  color: #ed3b44;
+}
+.grey-accent {
+  color: rgba(250, 250, 250, 0.4);
+}
+
+.about-me-item {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(250, 250, 250, 0.2);
+}
+.about-me-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.about-me-item-title {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: rgba(250, 250, 250, 0.4);
+}
+.about-me-item-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.about-me-item-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+}
+.skills-item:first-child {
+  background-color: #ed3b44;
+}
+.skills-item:not(:first-child) {
+  border: 1px solid rgba(250, 250, 250, 0.2);
+}
