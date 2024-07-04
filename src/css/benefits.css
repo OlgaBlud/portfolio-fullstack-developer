@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 16px;
+    
 }
 .benefits-title{
     display: flex;
@@ -15,9 +16,9 @@
     flex-direction: column;
     row-gap: 16px;
 }
-/* .benefits-list :last-child{
+.benefits-list-item:last-child{
     margin-bottom: 32px;
-} */
+}
 .benefits-list-links{
     padding-bottom: 64px;
 }
