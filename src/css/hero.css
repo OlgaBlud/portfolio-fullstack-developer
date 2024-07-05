@@ -1,7 +1,3 @@
-.container{
-    max-width: 375px;
-    /* Я змінив контейнер, бо воно не працювало по іншому, Більше постараюсь не чіпляти його*/
-}
 .hero-section{
     padding: 0 0;
     position: relative;
