@@ -1,3 +1,7 @@
+.container{
+    max-width: 375px;
+    /* Я змінив контейнер, бо воно не працювало по іншому, Більше постараюсь не чіпляти його*/
+}
 .hero-section{
     padding: 0 0;
     position: relative;
@@ -11,21 +15,25 @@ font-family: var(--font-family);
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: var(--main-text);
-    padding-bottom: 220px;
-    padding-top: 175px;
-    padding-left: 18px;
+    margin-bottom: 212px;
+    padding-top: 281px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .div1{
     background-image: linear-gradient(to right, red, #69292D, black);
-    background-image: url(../img/Hero/Glass_effect_Mob.png);
-    height: 812px;
+    background-image: url(../img/Hero/Hero_Mob.png);
+    max-height: 812px;
     align-items: center;
     background-repeat: no-repeat;
+    gap: 212px; 
+    max-width: 375px
 }
 .ulHero{
     height: 37px;
     display: flex;
     flex-direction: row;
+    margin-bottom: 32px;
 }
 .liIG{
     border: 1px solid rgba(250, 250, 250, 0.2);
@@ -81,14 +89,21 @@ border: 1px solid rgba(250, 250, 250, 0.2);
         color: var(--main-text);
 }
 .div1{
-    background-image: url(../img/Hero/Glass_effect_Tablet.png);
+    background-image: url(../img/Hero/Hero_Tabl.png);
     background-repeat: no-repeat;
+    min-width: 768px;
+    min-height: 1024px;
+}
+.ulHero{
+    align-items: end;
 }
 }
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1440px){
     .div1{
-        background-image: url(../img/Hero/Glass_effect_PC.png);
+        background-image: url(../img/Hero/Hero_PC.png);
         background-repeat: no-repeat;
+        min-height: 900px;
+        min-width: 1440px;
     }
 }
