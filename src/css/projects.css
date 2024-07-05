@@ -9,8 +9,8 @@ h1{
 .projects-panel {
   display: flex;
   flex-wrap: wrap;
-  height: 525px;
-  width: 1375px;
+  /* height: 525px;
+  width: 1375px; */
 }
 
 .left-top-panel {
@@ -37,16 +37,22 @@ h1{
   color: black;
   margin-top: 64px;
   margin-left: 64px;
+  border-color: black;
+  border: 5px;
 }
 .tecnology-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-color: black;
   border-style: dashed;
   border: 5px;
   border-radius: 60px;
-  background-color: aqua;
+  /* background-color: aqua; */
   font-size: 16px;
   padding: 18px;
   gap: 10px;
+   border: 1px solid rgba(250, 250, 250, 0.2);
 }
 
 .btn-project {
