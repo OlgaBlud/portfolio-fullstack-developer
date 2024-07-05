@@ -1,3 +1,57 @@
-<section class="reviews-section" id="reviews">
-  <div class="container"></div>
-</section>
+<section class="reviews">
+    <h2 class="reviews-title">Reviews</h2>
+    <ul class="reviews-list">
+      <li class="reviews-item">
+        <picture>
+          <!-- Desktop screen -->
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./img/reviews/portfolio/natalia-desc.png    1x,
+              ./img/reviews/portfolio/natalia@2x-desc.png 2x
+            "
+          />
+          <!-- Tablet screen -->
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/reviews/portfolio/natalia-tab.png    1x,
+              ./img/reviews/portfolio/natalia@2x-tab.png 2x
+            "
+          />
+          <!-- Mobile screen -->
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./img/reviews/portfolio/natalia-mob.png    1x,
+              ./img/reviews/portfolio/natalia@2x-mob.png 2x
+            "
+          />
+          <img
+            class="reviews-avatar"
+            alt="avatar"
+            src="http://localhost:5173/img/reviews/portfolio/natalia-mob.png"
+            alt="1clock"
+          />
+        </picture>
+  
+        <h3 class="reviews-name">John Doe</h3>
+        <p class="reviews-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </li>
+    </ul>
+    <div class="reviews-div-btn">
+      <button type="button" class="reviews-btn btn-narrow">
+        <svg class="icon icon-narrow">
+          <use xlink:href="../img/reviews/arrow.svg#icon-narrow"></use>
+        </svg>
+      </button>
+      <button type="button" class="reviews-btn btn-arrow">
+        <svg class="icon icon-arrow">
+          <use xlink:href="../img/reviews/arrow.svg#icon-arrow"></use>
+        </svg>
+      </button>
+    </div>
+  </section>
