@@ -16,7 +16,7 @@ font-family: var(--font-family);
 }
 .div1{
     background-image: linear-gradient(to right, red, #69292D, black);
-    background-image: url(../img/Hero/Glass_effect.png);
+    background-image: url(../img/Hero/Glass_effect_Mob.png);
     height: 812px;
     align-items: center;
 }
@@ -66,4 +66,25 @@ border: 1px solid rgba(250, 250, 250, 0.2);
     padding: 10px 12px;
     width: 178px;
     height: 37px;
+}
+
+@media screen and (min-width: 768px){
+.h1h{
+    font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 90px;
+        line-height: 100%;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: var(--main-text);
+}
+.div1{
+    background-image: url(../img/Hero/Glass_effect_Tablet.png);
+}
+}
+
+@media screen and (min-width: 1280px){
+    .div1{
+        background-image: url(../img/Hero/Glass_effect_PC.png);
+    }
 }
