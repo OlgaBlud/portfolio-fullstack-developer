@@ -1,5 +1,6 @@
-document.getElementById('');
+// document.getElementById('');
 
-document.getElementById('benefits-action-button').onclick = function () {
-  document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
-};
+// document.getElementById('benefits-action-button').onclick = function () {
+//   document.getElementById('footer').scrollIntoView({ behavior: 'smooth' });
+// };
+import './js/about-me-accordion';
