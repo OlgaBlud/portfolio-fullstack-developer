@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 16px;  
-    margin-bottom: 64px;
+    
 }
 .benefits-title{
     display: flex;
@@ -93,10 +93,6 @@
     border: 1px solid #fff;
 }
 @media screen and (min-width: 768px){
-.benefits-section{
-margin-bottom: 96px;
-
-    }
 .benefits-list{
     min-width: 704px;
     display: flex;
@@ -112,7 +108,6 @@ margin-bottom: 96px;
 }
 @media screen and (min-width: 1440px){
 .benefits-section{
-margin-bottom: 164px;
 display: flex;
     }
 .benefits-container{
