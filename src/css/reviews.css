@@ -1,0 +1,117 @@
+.reviews {
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    padding: 32px 0px;
+  }
+  .reviews-title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: rgba(250, 250, 250, 0.4);
+    text-transform: uppercase;
+  }
+  .reviews-list {
+    display: flex;
+    gap: 16px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    width: auto;
+    height: auto;
+  }
+  .reviews-item {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    border-radius: 20px;
+    padding: 32px 24px;
+    width: 343px;
+    height: 302px;
+  }
+  .reviews-avatar {
+    border-radius: 10px;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 24px;
+  }
+  .reviews-name {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: var(--main-text);
+  }
+  .reviews-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: rgba(250, 250, 250, 0.6);
+  }
+  .reviews-btn {
+    /* border: 1px solid rgba(250, 250, 250, 0.2); */
+    border-radius: 60px;
+    padding: 14px;
+    width: 52px;
+    height: 52px;
+    background-color: #1c1d20;
+  }
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: stroke 200ms ease-in-out;
+    /* stroke: #ffffff; */
+  }
+  .icon-arrow {
+    stroke: #fafafa;
+  }
+  .icon-narrow {
+    stroke: #3b3b3b;
+  }
+  .reviews-div-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+  }
+  .btn-narrow {
+    border: 1px solid rgba(250, 250, 250, 0.2);
+  }
+  .btn-arrow {
+    border: 1px solid rgba(250, 250, 250, 0.5);
+  }
+  .is_visible {
+    display: none;
+  }
+  .swiper-button-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  /* Для екранів шириною до 375px */
+  @media (max-width: 767px) {
+    .reviews-list .reviews-item:nth-child(n + 2) {
+      display: none;
+    }
+  }
+  
+  /* Для екранів шириною від 376px до 767px */
+  @media (min-width: 767px) and (max-width: 1439px) {
+    .reviews-list .reviews-item:nth-child(n + 3) {
+      display: none;
+    }
+  }
+  
+  /* Для екранів шириною від 768px до 1439px */
+  @media (min-width: 1440px) {
+    .reviews-list .reviews-item:nth-child(n + 5) {
+      display: none;
+    }
+  }
