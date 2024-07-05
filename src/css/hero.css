@@ -1,3 +1,7 @@
+.section1{
+    padding: 0 0;
+}
+
 .h1h{
 font-family: var(--font-family);
     font-weight: 500;
@@ -6,10 +10,14 @@ font-family: var(--font-family);
     letter-spacing: -0.03em;
     text-transform: uppercase;
     color: var(--main-text);
+    padding-bottom: 220px;
+    padding-top: 175px;
 }
 .div1{
     background-image: linear-gradient(to right, red, #69292D, black);
     background-image: url(../img/Hero/Glass_effect.png);
+    height: 812px;
+    align-items: center;
 }
 .ulHero{
     height: 37px;
