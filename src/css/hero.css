@@ -17,6 +17,8 @@ font-family: var(--font-family);
     padding-right: 16px;
 }
 .div1{
+    display: flex;
+    flex-direction: column;
     background-image: linear-gradient(to right, red, #69292D, black);
     background-image: url(../img/Hero/Hero_Mob.png);
     max-height: 812px;
@@ -90,7 +92,9 @@ border: 1px solid rgba(250, 250, 250, 0.2);
     min-height: 1024px;
 }
 .ulHero{
+    direction: flex;
     align-items: end;
+    justify-content: end;
 }
 }
 
