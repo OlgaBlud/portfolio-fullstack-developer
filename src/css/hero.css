@@ -12,6 +12,7 @@ font-family: var(--font-family);
     color: var(--main-text);
     padding-bottom: 220px;
     padding-top: 175px;
+    padding-left: 18px;
 }
 .div1{
     background-image: linear-gradient(to right, red, #69292D, black);
