@@ -1,0 +1,165 @@
+.top-footer {
+  display: flex;
+}
+
+.footer-img {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 4px;
+}
+
+.footer-title {
+  margin-left: 8px;
+  height: 40px;
+  display: inline;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #fafafa;
+}
+
+.accent-color {
+  color: #ed3b44;
+}
+
+input {
+  width: 343px;
+  height: 44px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: rgba(250, 250, 250, 0.6);
+  border-color: rgba(250, 250, 250, 0.2);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-width: 1px;
+  padding: 1px 1px 20px 1px;
+  margin-bottom: 16px;
+  background-color: transparent;
+  outline: none;
+}
+
+input:hover::placeholder,
+input:focus::placeholder {
+  color: #fafafa;
+  border-color: rgba(250, 250, 250, 0.5);
+}
+
+input:hover,
+input:focus {
+  color: #fafafa;
+  border-color: rgba(250, 250, 250, 0.5);
+}
+
+.submit-btn {
+  margin-top: 32px;
+  margin-bottom: 64px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #ed3b44;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+  border-color: transparent;
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+  background-color: #e0373f;
+}
+
+.contact-list {
+  display: flex;
+  gap: 4px;
+}
+
+.contact-list-btn {
+  border: 1px solid rgba(250, 250, 250, 0.2);
+  border-radius: 60px;
+  padding: 10px 12px;
+  background-color: transparent;
+}
+
+.contact-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #fafafa;
+}
+
+.contact-list-btn:hover,
+.contact-list-btn:focus {
+  border-color: #fafafa;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 7px;
+  }
+
+  .footer-title {
+    font-size: 64px;
+    margin-left: 20px;
+  }
+
+  .footer-form {
+    display: flex;
+
+    gap: 32px;
+  }
+
+  input {
+    width: 245px;
+    margin-top: 64px;
+    margin-bottom: 0px;
+  }
+
+  .submit-btn {
+    min-width: 150px;
+    min-height: 150px;
+    margin-top: 18px;
+    margin-bottom: 0px;
+  }
+
+  .contact-block {
+    margin-top: 18px;
+  }
+
+  .contact-list {
+    gap: 8px;
+  }
+
+  .contact-list-btn {
+    padding: 18px 32px;
+  }
+
+  .contact-list-link {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  input {
+    width: 390px;
+  }
+
+  .footer-form {
+    gap: 0px;
+  }
+
+  .mail-input {
+    margin-right: 32px;
+  }
+
+  .submit-btn {
+    margin-left: 86px;
+  }
+}
