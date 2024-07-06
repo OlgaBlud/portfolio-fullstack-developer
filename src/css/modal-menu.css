@@ -1,0 +1,18 @@
+.modal-menu {
+  display: inline-flex;
+  gap: 12px;
+  justify-content: center;
+  width: 373px;
+  height: 812px;
+  background-image: url(../img/img-header/Hero2x.jpg);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fafafa;
+}
+.list-menu {
+  margin-left: auto;
+  margin-right: auto;
+}
