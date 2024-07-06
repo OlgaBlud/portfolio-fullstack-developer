@@ -1,9 +1,6 @@
-.benefits-section{
+.benefits-container{
     display:flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 16px;  
-    
 }
 .benefits-title{
     display: flex;
@@ -21,7 +18,6 @@
     text-transform: uppercase;
     color: rgba(250, 250, 250, 0.4);
 }
-
 .benefits-list{
     display: flex;
     flex-direction: column;
