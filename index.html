@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/portfolio-fullstack-developer/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Portfolio</title>
-    
-    <script type="module" crossorigin src="/portfolio-fullstack-developer/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/portfolio-fullstack-developer/assets/index-8ca9d974.css">
-  </head>
-  <body>
-    
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/portfolio-fullstack-developer/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap" rel="stylesheet" />
+  <title>Portfolio</title>
+  
+  <script type="module" crossorigin src="/portfolio-fullstack-developer/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/portfolio-fullstack-developer/assets/vendor-8f98089f.js">
+  <link rel="stylesheet" href="/portfolio-fullstack-developer/assets/vendor-8255b786.css">
+  <link rel="stylesheet" href="/portfolio-fullstack-developer/assets/index-584b93a8.css">
+</head>
+
+<body>
+  
 <header class="header" id="header">
   <div class="header-container">
     <div class="position">
@@ -118,8 +115,8 @@
 <header class="header" id="header">Start</header>
 
 
-    <main>
-      <section class="hero-section" id="hero">
+  <main>
+    <section class="hero-section" id="hero">
   <div class="container div1">
 
       <h1 class="h1h">
@@ -156,7 +153,7 @@
     </div>
 </section>
 
-      <section class="about-me-section" id="about-me">
+    <section class="about-me-section" id="about-me">
   <div class="container">
     <h2 class="about-me-title visually-hidden is-hidden">About me</h2>
     <div class="about-me-general-block">
@@ -262,7 +259,7 @@
   </div>
 </section>
 
-      
+    
   <section class="benefits-section" id="benefits">
     <div class="container benefits-container">
       <div class="benefits-title">
@@ -280,7 +277,7 @@
                   height="24"
                   aria-label="about-me icon"
                 >
-                  <use href="/portfolio-fullstack-developer/assets/icons-7452ce44.svg#icon-about_me"></use>
+                  <use href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-about_me"></use>
                 </svg>
               </a>
             </div>
@@ -300,7 +297,7 @@
                   height="24"
                   aria-label="reviews icon"
                 >
-                  <use href="/portfolio-fullstack-developer/assets/icons-7452ce44.svg#icon-reviews"></use>
+                  <use href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-reviews"></use>
                 </svg>
               </a>
             </div>
@@ -320,7 +317,7 @@
                   height="24"
                   aria-label="project icon"
                 >
-                  <use href="/portfolio-fullstack-developer/assets/icons-7452ce44.svg#icon-project"></use>
+                  <use href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-project"></use>
                 </svg>
               </a>
             </div>
@@ -340,7 +337,7 @@
                   height="24"
                   aria-label="work_together icon"
                 >
-                  <use href="/portfolio-fullstack-developer/assets/icons-7452ce44.svg#icon-work_together"></use>
+                  <use href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-work_together"></use>
                 </svg>
               </a>
             </div>
@@ -360,7 +357,7 @@
     </div>
   </section>
 
-      <section class="projects-section" id="projects">
+    <!-- <section class="projects-section" id="projects">
   <div class="container">
     <h1>Projects</h1>
     <div class="projects-panel">
@@ -377,100 +374,56 @@
         <button type="submit" class="btn-project">See project</button>
       </div>
       <div class="right-down-panel">
-        <swiper-container
-          slides-per-view="3"
-          speed="500"
-          loop="true"
-          css-mode="true"
-        >
+        <swiper-container slides-per-view="3" speed="500" loop="true" css-mode="true">
           <swiper-slide>
             <picture class="projects-picture">
-              <source
-                srcset="
+              <source srcset="
                   ../img/projects-section/imageBookDeck-min.png    1x,
                   ../img/projects-section/imageBookDeck@2x-min.png 2x
-                "
-                media="(min-width: 1440px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 1440px)" />
+              <source srcset="
                   ../img/projects-section/imageBookTab-min.png    1x,
                   ../img/projects-section/imageBookTab@2x-min.png 2x
-                "
-                media="(min-width: 768px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 768px)" />
+              <source srcset="
                   ../img/projects-section/imageBook-min.png    1x,
                   ../img/projects-section/imageBook@2x-min.png 2x
-                "
-                media="(max-width: 767px)"
-              />
-              <img
-                src="/portfolio-fullstack-developer/assets/imageBook-min-1e1856eb.png"
-                alt="my-book"
-                class="projects-photo"
-              />
+                " media="(max-width: 767px)" />
+              <img src="../src/img/projects-section/imageBook-min.png" alt="my-book" class="projects-photo" />
             </picture>
           </swiper-slide>
           <swiper-slide>
             <picture class="projects-picture">
-              <source
-                srcset="
+              <source srcset="
                   ../img/projects-section/imagePetDeck-min.png    1x,
                   ../img/projects-section/imagePetDeck@2x-min.png 2x
-                "
-                media="(min-width: 1440px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 1440px)" />
+              <source srcset="
                   ../img/projects-section/imagePetTab-min.png    1x,
                   ../img/projects-section/imagePetTab@2x-min.png 2x
-                "
-                media="(min-width: 768px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 768px)" />
+              <source srcset="
                   ../img/projects-section/imagePet-min.png    1x,
                   ../img/projects-section/imagePet@2x-min.png 2x
-                "
-                media="(max-width: 767px)"
-              />
-              <img
-                src="/portfolio-fullstack-developer/assets/imagePet-min-1da33256.png"
-                alt="my-book"
-                class="projects-photo"
-              />
+                " media="(max-width: 767px)" />
+              <img src="../src/img/projects-section/imagePet-min.png" alt="my-book" class="projects-photo" />
             </picture>
           </swiper-slide>
           <swiper-slide>
             <picture class="projects-picture">
-              <source
-                srcset="
+              <source srcset="
                   ../img/projects-section/imageRegisterDeck-min.png    1x,
                   ../img/projects-section/imageRegisterDeck@2x-min.png 2x
-                "
-                media="(min-width: 1440px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 1440px)" />
+              <source srcset="
                   ../img/projects-section/imageRegisterTab-min.png    1x,
                   ../img/projects-section/imageRegisterTab@2x-min.png 2x
-                "
-                media="(min-width: 768px)"
-              />
-              <source
-                srcset="
+                " media="(min-width: 768px)" />
+              <source srcset="
                   ../img/projects-section/imageRegister-min.png    1x,
                   ../img/projects-section/imageRegister@2x-min.png 2x
-                "
-                media="(max-width: 767px)"
-              />
-              <img
-                src="/portfolio-fullstack-developer/assets/imageRegister-min-07a6f379.png"
-                alt="my-book"
-                class="projects-photo"
-              />
+                " media="(max-width: 767px)" />
+              <img src="../src/img/projects-section/imageRegister-min.png" alt="my-book" class="projects-photo" />
             </picture>
           </swiper-slide>
           ...
@@ -482,17 +435,112 @@
   <button type="button" class="btn-project-right">Right</button>
 </section>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
+    <section class="faq-section" id="faq">
+  <div class="container-faq">
+    <h2 class="faq-title">FAQ</h2>
+    <ul class="faq-list">
+      <li class="faq-item">
+        <div class="faq-item-container">
+          <h3 class="faq-item-title">What programming languages are most often used in your project?</h3>
+          <div class="svg-container"><svg class="faq-svg" width="34" height="34">
+              <use href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-garmonica"></use>
+            </svg></div>
 
-      <section class="faq-section" id="faq">
+        </div>
+
+        <p class="faq-item-text">In the field of web development, there are various technologies and programming
+          languages. Typically, this
+          includes a
+          combination of frontend (client side) and backend (server side) languages.</p>
+      </li>
+      <li class="faq-item">
+        <div class="faq-item-container">
+          <h3 class="faq-item-title">How can I contact you?</h3>
+          <div class="svg-container"><svg class="faq-svg" width="40" height="40">
+              <use href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-garmonica"></use>
+            </svg></div>
+
+        </div>
+
+
+        <p class="faq-item-text">In the field of web development, there are various technologies and programming
+          languages. Typically, this
+          includes a
+          combination of frontend (client side) and backend (server side) languages.</p>
+      </li>
+      <li class="faq-item">
+        <div class="faq-item-container">
+          <h3 class="faq-item-title">What are the deadlines for the project?</h3>
+          <div class="svg-container"><svg class="faq-svg" width="40" height="40">
+              <use href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-garmonica"></use>
+            </svg></div>
+
+        </div>
+
+
+        <p class="faq-item-text">The terms of project implementation depend to a large extent on a number of factors,
+          such as the scope of the
+          project,
+          its complexity, and the availability of resources. Determining exact deadlines is a difficult task, and it
+          usually
+          occurs during the planning phase of the project.</p>
+      </li>
+      <li class="faq-item">
+        <div class="faq-item-container">
+          <h3 class="faq-item-title">Do you provide advice or support?</h3>
+          <div class="svg-container"><svg class="faq-svg" width="40" height="40">
+              <use href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-garmonica"></use>
+            </svg></div>
+
+        </div>
+
+
+        <p class="faq-item-text">The terms of project implementation depend to a large extent on a number of factors,
+          such as the scope of the
+          project,
+          its complexity, and the availability of resources. Determining exact deadlines is a difficult task, and it
+          usually
+          occurs during the planning phase of the project.</p>
+      </li>
+      <li class="faq-item">
+        <div class="faq-item-container">
+          <h3 class="faq-item-title">What payment methods do you accept?</h3>
+          <div class="svg-container"><svg class="faq-svg" width="40" height="40">
+              <use href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-garmonica"></use>
+            </svg></div>
+
+        </div>
+
+        <p class="faq-item-text">Payment through credit and debit cards such as Visa, MasterCard, specialized electronic
+          payment systems such
+          as PayPal,
+          as well as payments in cryptocurrencies such as Bitcoin, Ethereum and others.</p>
+      </li>
+      <li class="faq-item">
+        <div class="faq-item-container">
+          <h3 class="faq-item-title">What does the process of developing a software product look like from idea to
+            implementation?</h3>
+          <div class="svg-container"><svg class="faq-svg" width="40" height="40">
+              <use href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-garmonica"></use>
+            </svg></div>
+
+        </div>
+
+        <p class="faq-item-text">Payment through credit and debit cards such as Visa, MasterCard, specialized electronic
+          payment systems such
+          as PayPal,
+          as well as payments in cryptocurrencies such as Bitcoin, Ethereum and others.</p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="covers-section" id="covers">
   <div class="container"></div>
 </section>
 
-      <section class="covers-section" id="covers">
-  <div class="container"></div>
-</section>
-
-      <section class="container">
+    <section class="container">
   <div class="reviews">
     <h2 class="reviews-title">Reviews</h2>
     <div class="flex-reviews">
@@ -504,13 +552,13 @@
         <div class="reviews-div-btn">
           <button type="button" class="reviews-btn js-btn-prev">
             <svg class="reviews-icon js-icon-prev">
-              <use xlink:href="/portfolio-fullstack-developer/assets/icons-7452ce44.svg#icon-arrows-left"></use>
+              <use xlink:href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-arrows-left"></use>
             </svg>
           </button>
 
           <button type="button" class="reviews-btn js-btn-next">
             <svg class="reviews-icon js-icon-next">
-              <use xlink:href="/portfolio-fullstack-developer/assets/icons-7452ce44.svg#icon-arrow-right"></use>
+              <use xlink:href="/portfolio-fullstack-developer/assets/icons-fcdd11fd.svg#icon-arrow-right"></use>
             </svg>
           </button>
         </div>
@@ -519,8 +567,8 @@
   </div>
 </section>
 
-    </main>
-    <footer class="footer container" id="footer">
+  </main>
+  <footer class="footer container" id="footer">
   <section>
     <div class="top-footer">
       <img
@@ -561,10 +609,11 @@
   </section>
 </footer>
 
-    <div class="modal-menu" id="modal-menu"></div>
+  <div class="modal-menu" id="modal-menu"></div>
 
-    <div class="pop-up-footer" id="pop-up-footer"></div>
+  <div class="pop-up-footer" id="pop-up-footer"></div>
 
-    
-  </body>
+  
+</body>
+
 </html>
