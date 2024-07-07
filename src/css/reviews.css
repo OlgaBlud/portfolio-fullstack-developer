@@ -1,8 +1,12 @@
-.reviews {
+.reviews-container {
+    padding-bottom: 0px;
+    padding-top: 64px;
+  }
+  .reviews {
     display: flex;
     gap: 32px;
     flex-direction: column;
-    padding: 32px 0px;
+    padding: 0px;
   }
   .reviews-title {
     font-family: var(--font-family);
@@ -18,6 +22,19 @@
     width: auto;
     height: auto;
   }
+  
+  /* slider container  */
+  .reviews-item-container {
+    position: relative;
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    border-radius: 20px;
+    max-width: 344px;
+    min-height: 302px;
+    overflow: hidden;
+  }
+  
+  /* slider item */
+  
   .reviews-item {
     display: flex;
     gap: 8px;
@@ -25,7 +42,8 @@
     border: 1px solid rgba(250, 250, 250, 0.2);
     border-radius: 20px;
     padding: 32px 24px;
-    width: 344px;
+    max-width: 344px;
+    min-height: 302px;
     max-height: 302px;
   }
   .reviews-avatar {
@@ -50,7 +68,7 @@
     letter-spacing: -0.02em;
     color: rgba(250, 250, 250, 0.6);
     max-width: 295px;
-    height: 120px;
+    min-height: 120px;
     overflow-x: hidden;
     overflow-y: auto;
     padding-right: 4px;
@@ -59,18 +77,25 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgba(250, 250, 250, 0.5);
+    border: 1px solid #fafafa;
     border-radius: 60px;
-    padding: 14px;
     width: 52px;
     height: 52px;
     background-color: transparent;
+    margin-bottom: 2px;
   }
+  
+  .reviews-btn:active {
+    transform: translateY(2px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border: 1px solid #fafafa;
+  }
+  
   .reviews-icon {
     width: 24px;
     height: 24px;
     transition: stroke 200ms ease-in-out;
-    stroke: rgba(250, 250, 250, 0.5);
+    stroke: #fafafa;
     cursor: pointer;
   }
   
@@ -129,24 +154,89 @@
     padding: 0;
     overflow: hidden;
   }
+  /* photo slider */
+  
+  .card-reviews {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* transform: translate(-50%, -50%); */
+    background: transparent;
+    overflow: hidden;
+    transition-timing-function: cubic-bezier(0.57, 0.21, 0.69, 1.25);
+  }
+  
+  .card-reviews .img-big-avatar,
+  .card-reviews .item-details {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  
+  .card-reviews .img-big-avatar {
+    top: 0;
+    left: 100%;
+    transition: left 0.5s;
+  }
+  
+  .card-reviews .img-big-avatar img {
+    width: 100%;
+    height: 302px;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .card-reviews .item-details {
+    top: 0;
+    left: 0;
+  }
+  @media screen and (max-width: 1439px) {
+    .click .item-details {
+      left: 100%;
+      transition: left 0.5s;
+    }
+    .click .img-big-avatar {
+      left: 0;
+    }
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .card-reviews:hover .item-details {
+      left: 100%;
+      transition: left 0.5s;
+    }
+    .card-reviews:hover .img-big-avatar {
+      left: 0;
+    }
+  }
+  
+  /* end of slider */
   
   @media screen and (min-width: 768px) {
+    .reviews-container {
+      padding-top: 96px;
+    }
     .reviews {
       max-width: 768px;
     }
-  
+    .reviews-item-container,
     .reviews-item {
       width: 344px;
     }
   
     .reviews-text {
       width: 296px;
+      min-height: 120px;
+      max-height: 120px;
     }
   
     .reviews-btn {
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 18px;
       width: 68px;
       height: 68px;
     }
@@ -157,16 +247,48 @@
   }
   
   @media screen and (min-width: 1440px) {
+    .reviews-container {
+      padding-top: 164px;
+    }
     .reviews {
       max-width: 1440px;
     }
   
-    .reviews-item {
+    .reviews-item,
+    .reviews-item-container {
       width: 332px;
+      min-height: 302px;
     }
   
     .reviews-text {
       width: 284px;
       height: 120px;
     }
+  }
+  .not-found-message {
+    font-size: 1.2rem;
+    color: #888;
+    text-align: center;
+    margin-top: 40px;
+  }
+  .not-found-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .iziToast {
+    width: 344px;
+    height: 80px;
+    padding: 15px 24px 30px 30px;
+    font-size: 60px;
+    color: #888;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 400;
+    background-color: #242527;
+    border-radius: 4px;
+    color: rgba(250, 250, 250, 0.6);
+    font-family: var(--font-family);
   }
