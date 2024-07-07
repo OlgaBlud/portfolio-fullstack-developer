@@ -3,6 +3,7 @@ export const refs = {
   btnOpenMenu: document.querySelector('btn-open-menu'),
   modalOverlay: document.querySelector('.modal-overlay'),
   closeMenu: document.querySelector('.close-menu'),
-  aboutMeList: document.querySelector('.about-me-list'),
   skillsList: document.querySelector('.skills-list'),
+  aboutMeList: document.querySelector('.about-me-list'),
+  skillsSwiper: document.querySelector('.skills-swiper'),
 };

@@ -1,5 +1,5 @@
 <section class="about-me-section" id="about-me">
-  <div class="container">
+  <div class="container about-me-wrap">
     <h2 class="about-me-title visually-hidden is-hidden">About me</h2>
     <div class="about-me-general-block">
       <p class="about-me-general-text">
@@ -38,10 +38,19 @@
         />
       </picture>
     </div>
-    <ul class="about-me-list">
-      <li class="about-me-item">
-        <h3 class="about-me-item-title">About me</h3>
-        <div class="about-me-item-text-container">
+
+    <ul class="about-me-list accordion-container">
+      <li class="about-me-item ac">
+        <div class="about-me-item-wrap">
+          <h3 class="about-me-item-title ac-header">About me</h3>
+          <button class="expand-collapse-button ac-trigger" type="button">
+            <!-- <svg class="about-me-arrow" width="30" height="30">
+            <use href="./img/icons.svg#icon-arrow-top"></use>
+          </svg> -->
+          </button>
+        </div>
+
+        <div class="about-me-item-text-container ac-panel">
           <p class="about-me-item-text">
             I am Lloyd Jefferson, a talented programmer with extensive expertise
             in software development. I have an understanding of different
@@ -65,9 +74,16 @@
           </p>
         </div>
       </li>
-      <li class="about-me-item">
-        <h3 class="about-me-item-title">Role</h3>
-        <ul class="role-list">
+      <li class="about-me-item ac">
+        <div class="about-me-item-wrap">
+          <h3 class="about-me-item-title ac-header">Role</h3>
+          <button class="expand-collapse-button ac-trigger" type="button">
+            <!-- <svg class="about-me-arrow" width="30" height="30">
+            <use href="./img/icons.svg#icon-arrow-bottom"></use>
+          </svg> -->
+          </button>
+        </div>
+        <ul class="role-list ac-panel">
           <li class="role-item">
             <p class="about-me-item-text">Frontend development</p>
           </li>
@@ -79,9 +95,16 @@
           </li>
         </ul>
       </li>
-      <li class="about-me-item">
-        <h3 class="about-me-item-title">Education</h3>
-        <ul class="education-list">
+      <li class="about-me-item ac">
+        <div class="about-me-item-wrap">
+          <h3 class="about-me-item-title ac-header">Education</h3>
+          <button class="expand-collapse-button ac-trigger" type="button">
+            <!-- <svg class="about-me-arrow">
+            <use href="./img/icons.svg#icon-arrow-bottom"></use>
+          </svg> -->
+          </button>
+        </div>
+        <ul class="education-list ac-panel">
           <li class="education-item">
             <p class="about-me-item-text">
               2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
@@ -102,13 +125,41 @@
         </ul>
       </li>
     </ul>
-    <ul class="skills-list">
-      <li class="skills-item">HTML/CSS</li>
-      <li class="skills-item">JavaScript</li>
-      <li class="skills-item">React</li>
-      <li class="skills-item">Node. js</li>
-      <li class="skills-item">React Native</li>
-      <li class="skills-item">Soft skills</li>
-    </ul>
+    <!-- swiper -->
+    <div class="swiper skills-swiper">
+      <ul class="skills-list swiper-wrapper">
+        <li class="skills-item swiper-slide">HTML/CSS</li>
+
+        <li class="skills-item swiper-slide">JavaScript</li>
+        <li class="skills-item swiper-slide">React</li>
+        <li class="skills-item swiper-slide">Node. js</li>
+        <li class="skills-item swiper-slide">React Native</li>
+        <li class="skills-item swiper-slide">Soft skills</li>
+
+        <!-- <li class="skills-item swiper-slide">
+          <p class="skills-item-text">HTML/CSS</p>
+        </li>
+        <li class="skills-item swiper-slide">
+          <p class="skills-item-text">JavaScript</p>
+        </li>
+        <li class="skills-item swiper-slide">
+          <p class="skills-item-text">React</p>
+        </li>
+        <li class="skills-item swiper-slide">
+          <p class="skills-item-text">Node. js</p>
+        </li>
+        <li class="skills-item swiper-slide">
+          <p class="skills-item-text">React Native</p>
+        </li>
+        <li class="skills-item swiper-slide">
+          <p class="skills-item-text">Soft skills</p>
+        </li> -->
+      </ul>
+      <button class="swiper-button-next about-me-swiper-btn" type="button">
+        <svg>
+          <use href="../img/icons.svg#icon-work_together"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </section>
