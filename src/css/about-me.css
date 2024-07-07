@@ -1,4 +1,3 @@
-
 /* reset styles accordion */
 .ac {
   margin: top 0;
@@ -91,11 +90,11 @@
   letter-spacing: -0.02em;
   color: #fafafa;
 }
-
-.skills-list {
+/* skills start */
+/* .skills-list {
   display: flex;
   flex-wrap: wrap;
-}
+} */
 .skills-item {
   display: flex;
   justify-content: center;
@@ -108,9 +107,35 @@
   line-height: 1.5;
   letter-spacing: -0.02em;
 }
+/* .skills-item-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid violet;
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+} */
 .skills-item:first-child {
   background-color: #ed3b44;
 }
 .skills-item:not(:first-child) {
   border: 1px solid rgba(250, 250, 250, 0.2);
+}
+
+/* end skills  */
+.swiper {
+  width: 343px;
+  height: 132px;
+}
+.swiper-button-next:after {
+  content: none;
+}
+.about-me-swiper-btn {
+  background-color: transparent;
+  border: none;
 }
