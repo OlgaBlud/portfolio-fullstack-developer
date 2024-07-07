@@ -160,6 +160,9 @@
     line-height: 1;
     font-size: 20px;
   }
+  .swiper {
+    width: 704px;
+  }
 }
 @media only screen and (min-width: 1440px) {
   .about-me-wrap {
@@ -171,5 +174,8 @@
   }
   .about-me-general-text {
     width: 680px;
+  }
+  .swiper {
+    width: 1312px;
   }
 }
