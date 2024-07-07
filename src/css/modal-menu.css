@@ -26,7 +26,7 @@
 .close-btn {
   position: fixed;
   top: 32px;
-  /* right: 10px; */
+  left: 300px;
   border: none;
   background-color: transparent;
 }
