@@ -14,4 +14,8 @@ new Swiper(refs.skillsSwiper, {
   navigation: {
     nextEl: '.swiper-button-next',
   },
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
 });

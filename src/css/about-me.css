@@ -15,7 +15,7 @@
   gap: 32px;
   max-width: 343px;
 }
-
+/* general block */
 .about-me-general-block {
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 .about-me-general-text {
   border-radius: 24px;
   padding: 32px;
-  height: 500px;
+  padding-bottom: 216px;
   background-color: #242527;
   font-weight: 500;
   font-size: 24px;
@@ -40,6 +40,7 @@
   color: rgba(250, 250, 250, 0.4);
 }
 
+/* about me accordion */
 .about-me-item {
   padding-bottom: 32px;
   border-bottom: 1px solid rgba(250, 250, 250, 0.2);
@@ -90,6 +91,7 @@
   letter-spacing: -0.02em;
   color: #fafafa;
 }
+
 /* skills start */
 /* .skills-list {
   display: flex;
@@ -138,4 +140,42 @@
 .about-me-swiper-btn {
   background-color: transparent;
   border: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .about-me-wrap {
+    gap: 64px;
+    max-width: 704px;
+  }
+  .about-me-general-text {
+    padding: 64px;
+    padding-bottom: 396px;
+    font-size: 38px;
+    line-height: 1.05;
+  }
+  .about-me-item:not(:last-child) {
+    margin-bottom: 32px;
+  }
+  .skills-item {
+    line-height: 1;
+    font-size: 20px;
+  }
+  .swiper {
+    width: 704px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .about-me-wrap {
+    gap: 96px;
+    max-width: 1376px;
+  }
+  .about-me-general-block {
+    flex-direction: row;
+  }
+  .about-me-general-text {
+    width: 680px;
+  }
+  .swiper {
+    width: 1312px;
+  }
 }
