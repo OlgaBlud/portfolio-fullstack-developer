@@ -1,15 +1,11 @@
-body {
-    margin: 0;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  .content {
+.covers-section {
+  max-width: 1440px;
+  max-height: 960px;
+  position: relative;
+}
+  /* .content {
     position: relative;
-  }
+  } */
   .marquee {
     position: absolute;
     right: -800px;
@@ -28,7 +24,7 @@ body {
   }
   
   .marquee__line {
-    background-color: #FFDC00;
+    /* background-color: #FFDC00; */
     flex-shrink: 0;
     margin-right: 10px; 
     display: flex;
@@ -41,6 +37,10 @@ body {
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
   }
+
+  /* .marquee_animation {
+    
+  }   */
   
   @keyframes marqueeLine {
     from {
@@ -64,6 +64,8 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+
 
 @media only screen and (max-widt:767px) {
   
