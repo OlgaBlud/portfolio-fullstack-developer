@@ -12,7 +12,7 @@ refs.btnClose.addEventListener('click', () => {
 // =================Закриття модального вікна пр переході за посиланням
 
 refs.close1.addEventListener('click', () => {
-  setTimeout(refs.modalOverlay.classList.remove('show'), 2000);
+  refs.modalOverlay.classList.remove('show');
 });
 
 refs.close2.addEventListener('click', () => {
@@ -31,15 +31,6 @@ refs.close5.addEventListener('click', () => {
   refs.modalOverlay.classList.remove('show');
 });
 
-let eventStateMenu = refs.modalOverlay.classList.contains('show');
-console.log(eventStateMenu);
-
-refs.menuTablet.addEventListener('click', e => {
+refs.menuTablet.addEventListener('click', () => {
   refs.modalOverlay.classList.toggle('show');
-  // e.preventDefault();
-  // if (eventStateMenu === true) {
-  //   refs.modalOverlay..remove('show');
-  //   console.log(eventStateMenu);
-  // }
-  // refs.modalOverlay.classList.add('show');
 });
