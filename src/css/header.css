@@ -1,0 +1,73 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 375px;
+  padding: 31px 16px 0 16px;
+  margin: 0 auto;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+.btn-open-menu {
+  background: transparent;
+  align-self: start;
+  border: none;
+}
+.img-header {
+  border-radius: 18px;
+  width: 80px;
+  height: 80px;
+}
+.position {
+  display: flex;
+  gap: 8px;
+}
+.menu {
+  display: none;
+}
+.order-project-btn {
+  display: none;
+}
+
+/* =============Tablet version================= */
+@media screen and (min-width: 768px) {
+  .header-container {
+    max-width: 768px;
+    padding: 32px;
+  }
+  .menu {
+    position: relative;
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #fafafa;
+  }
+  .btn-open-menu {
+    display: none;
+  }
+  .order-project-btn {
+    border-radius: 60px;
+    border: none;
+    padding: 18px 24px;
+    width: 163px;
+    height: 55px;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    background-color: #ed3b44;
+    color: #fafafa;
+    display: flex;
+  }
+}
+/* ===========Desctop version==================== */
+@media only screen and (min-width: 1158px) {
+  .header-container {
+    max-width: 1158px;
+  }
+}

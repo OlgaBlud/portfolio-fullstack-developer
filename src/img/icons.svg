@@ -15,9 +15,33 @@
 <symbol id="icon-work_together" viewBox="0 0 32 32">
 <path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M24.217 2.667h-16.434c-0.617 0-1.117 0.5-1.117 1.117 0 3.554 1.412 6.962 3.925 9.475l1.626 1.626c0.161 0.161 0.242 0.242 0.3 0.32 0.352 0.473 0.352 1.121 0 1.594-0.058 0.077-0.139 0.158-0.3 0.32l-1.626 1.626c-2.513 2.513-3.925 5.921-3.925 9.475 0 0.617 0.5 1.117 1.117 1.117h16.434c0.617 0 1.117-0.5 1.117-1.117 0-3.554-1.412-6.962-3.925-9.475l-1.626-1.626c-0.161-0.161-0.242-0.242-0.3-0.32-0.353-0.473-0.353-1.121 0-1.594 0.058-0.077 0.139-0.158 0.3-0.32l1.626-1.626c2.513-2.513 3.925-5.921 3.925-9.475 0-0.617-0.5-1.117-1.117-1.117z"></path>
 </symbol>
-<symbol id="close-icon" viewBox="0 0 32 32">
-<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M24 8l-16 16"></path>
-<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8 8l16 16"></path>
+<symbol id="icon-garmonica" viewBox="0 0 32 32">
+<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.2" d="M24 12l-8 8-8-8"></path>
+<symbol id="icon-arrow-narrow-right" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M26.666 16h-21.333"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M13.334 24l-8-8 8-8"></path>
 </symbol>
+
+<!-- не відображаються -->
+<symbol id="icon-arrow-down" viewBox="0 0 32 32">
+<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.5556" d="M8 12l8 8 8-8"></path>
+</symbol>
+<symbol id="icon-arrow-right" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M5.334 16h21.333"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.2857" d="M18.666 8l8 8-8 8"></path>
+</symbol>
+<symbol id="icon-arrow-up" viewBox="0 0 32 32">
+<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.5556" d="M24 20l-8-8-8 8"></path>
+</symbol>
+<symbol id="icon-arrow-bottom" viewBox="0 0 32 32">
+<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7619" d="M16 31.619c-8.626 0-15.619-6.993-15.619-15.619s6.993-15.619 15.619-15.619c8.626 0 15.619 6.993 15.619 15.619s-6.993 15.619-15.619 15.619z"></path>
+<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.5238" d="M12.19 17.905l3.81-3.81 3.81 3.81"></path>
+</symbol>
+
+<symbol id="icon-arrow-top" viewBox="0 0 32 32">
+<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7619" d="M16 0.381c8.626 0 15.619 6.993 15.619 15.619s-6.993 15.619-15.619 15.619c-8.626 0-15.619-6.993-15.619-15.619s6.993-15.619 15.619-15.619z"></path>
+<path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.5238" d="M19.81 14.095l-3.81 3.81-3.81-3.81"></path>
+</symbol> 
+<!--  end не відображаються -->
 </defs>
 </svg>
