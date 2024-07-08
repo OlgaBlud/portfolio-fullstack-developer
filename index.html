@@ -22,7 +22,7 @@
     <script type="module" crossorigin src="/portfolio-fullstack-developer/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/portfolio-fullstack-developer/assets/vendor-bc3b5b95.js">
     <link rel="stylesheet" href="/portfolio-fullstack-developer/assets/vendor-b51df72b.css">
-    <link rel="stylesheet" href="/portfolio-fullstack-developer/assets/index-9209df0a.css">
+    <link rel="stylesheet" href="/portfolio-fullstack-developer/assets/index-498839cf.css">
   </head>
 
   <body>
@@ -430,7 +430,7 @@
   </div>
 </section>
 
-      <!-- <section class="projects-section" id="projects">
+      <section class="projects-section" id="projects">
   <div class="container">
     <h2 class="ProjectsH2">Projects</h2>
     <div class="projects-panel">
@@ -444,71 +444,131 @@
         <p class="my-text">
           Programming Across Borders: Ideas, Technologies, Innovations
         </p>
-        <button type="submit" class="btn-project">See project</button>
+        <button
+          type="submit"
+          onclick="window.location.href = `https://github.com/OlgaBlud/portfolio-fullstack-developer`;"
+          class="btn-project"
+        >
+          See project
+        </button>
       </div>
       <div class="right-down-panel">
-        <swiper-container slides-per-view="3" speed="500" loop="true" css-mode="true">
-          <swiper-slide>
-            <picture class="projects-picture">
-              <source srcset="
-                  ../img/projects-section/imageBookDeck-min.png    1x,
-                  ../img/projects-section/imageBookDeck@2x-min.png 2x
-                " media="(min-width: 1440px)" />
-              <source srcset="
-                  ../img/projects-section/imageBookTab-min.png    1x,
-                  ../img/projects-section/imageBookTab@2x-min.png 2x
-                " media="(min-width: 768px)" />
-              <source srcset="
-                  ../img/projects-section/imageBook-min.png    1x,
-                  ../img/projects-section/imageBook@2x-min.png 2x
-                " media="(max-width: 767px)" />
-              <img src="../src/img/projects-section/imageBook-min.png" alt="my-book" class="projects-photo" />
-            </picture>
-          </swiper-slide>
-          <swiper-slide>
-            <picture class="projects-picture">
-              <source srcset="
-                  ../img/projects-section/imagePetDeck-min.png    1x,
-                  ../img/projects-section/imagePetDeck@2x-min.png 2x
-                " media="(min-width: 1440px)" />
-              <source srcset="
-                  ../img/projects-section/imagePetTab-min.png    1x,
-                  ../img/projects-section/imagePetTab@2x-min.png 2x
-                " media="(min-width: 768px)" />
-              <source srcset="
-                  ../img/projects-section/imagePet-min.png    1x,
-                  ../img/projects-section/imagePet@2x-min.png 2x
-                " media="(max-width: 767px)" />
-              <img src="../src/img/projects-section/imagePet-min.png" alt="my-book" class="projects-photo" />
-            </picture>
-          </swiper-slide>
-          <swiper-slide>
-            <picture class="projects-picture">
-              <source srcset="
-                  ../img/projects-section/imageRegisterDeck-min.png    1x,
-                  ../img/projects-section/imageRegisterDeck@2x-min.png 2x
-                " media="(min-width: 1440px)" />
-              <source srcset="
-                  ../img/projects-section/imageRegisterTab-min.png    1x,
-                  ../img/projects-section/imageRegisterTab@2x-min.png 2x
-                " media="(min-width: 768px)" />
-              <source srcset="
-                  ../img/projects-section/imageRegister-min.png    1x,
-                  ../img/projects-section/imageRegister@2x-min.png 2x
-                " media="(max-width: 767px)" />
-              <img src="../src/img/projects-section/imageRegister-min.png" alt="my-book" class="projects-photo" />
-            </picture>
-          </swiper-slide>
-          ...
-        </swiper-container>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide"
+              style="
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              "
+            >
+              Slide 1
+              <picture class="projects-picture">
+                <source
+                  srcset="/portfolio-fullstack-developer/assets/imageBookTab-min-91825f4a.png 1x, /portfolio-fullstack-developer/assets/imageBookTab@2x-min-21a1c234.png 2x"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="/portfolio-fullstack-developer/assets/imageBookTab-min-91825f4a.png 1x, /portfolio-fullstack-developer/assets/imageBookTab@2x-min-21a1c234.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/portfolio-fullstack-developer/assets/imageBook-min-1e1856eb.png 1x, /portfolio-fullstack-developer/assets/imageBook@2x-min-abf57699.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./src/img/projects-section/imageBook-min.png"
+                  alt="my-book"
+                  class="projects-photo"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              Slide 2
+              <picture class="projects-picture">
+                <source
+                  srcset="/portfolio-fullstack-developer/assets/imagePetTab-min-808c324f.png 1x, /portfolio-fullstack-developer/assets/imagePetTab@2x-min-6cf46328.png 2x"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="/portfolio-fullstack-developer/assets/imagePetTab-min-808c324f.png 1x, /portfolio-fullstack-developer/assets/imagePetTab@2x-min-6cf46328.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/portfolio-fullstack-developer/assets/imagePet-min-1da33256.png 1x, /portfolio-fullstack-developer/assets/imagePet@2x-min-f4ff67a4.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./src/img/projects-section/imagePet-min.png"
+                  alt="my-book"
+                  class="projects-photo"
+                />
+              </picture>
+            </div>
+            <div class="swiper-slide">
+              slide3
+              <picture class="projects-picture">
+                <source
+                  srcset="/portfolio-fullstack-developer/assets/imageRegisterTab-min-9feb713d.png 1x, /portfolio-fullstack-developer/assets/imageRegisterTab@2x-min-991ba401.png 2x"
+                  media="(min-width: 1440px)"
+                />
+                <source
+                  srcset="/portfolio-fullstack-developer/assets/imageRegisterTab-min-9feb713d.png 1x, /portfolio-fullstack-developer/assets/imageRegisterTab@2x-min-991ba401.png 2x"
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="/portfolio-fullstack-developer/assets/imageRegister-min-07a6f379.png 1x, /portfolio-fullstack-developer/assets/imageRegister@2x-min-55b5f75a.png 2x"
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./src/img/projects-section/imageRegister-min.png"
+                  alt="my-book"
+                  class="projects-photo"
+                />
+              </picture>
+            </div>
+          </div>
+          <div class="arrow-lr">
+            <div class="swiper-button-prev1 btn-project-lr">
+              <button type="button" class=".btn-project-right btn-project-lr">
+                <svg class="project-icon">
+                  <use
+                    xlink:href="/portfolio-fullstack-developer/assets/icons-ceb2c7ee.svg#icon-arrow-narrow-right"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+            <div class="swiper-button-next1 btn-project-lr">
+              <button type="button" class="btn-project-left btn-project-lr">
+                <svg class="project-icon2">
+                  <use
+                    xlink:href="/portfolio-fullstack-developer/assets/icons-ceb2c7ee.svg#icon-arrow-narrow-right"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <button type="button" class="btn-project-left">Left</button>
-  <button type="button" class="btn-project-right">Right</button>
 </section>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script> -->
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.mySwiper', {
+    navigation: {
+      nextEl: '.swiper-button-next1',
+      prevEl: '.swiper-button-prev1',
+    },
+  });
+</script>
+
       <section class="faq-section" id="faq">
   <div class="container-faq">
     <h2 class="faq-title">FAQ</h2>
