@@ -21,7 +21,6 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M26.666 16h-21.333"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M13.334 24l-8-8 8-8"></path>
 </symbol>
-
 <!-- не відображаються -->
 <symbol id="icon-arrow-down" viewBox="0 0 32 32">
 <path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.5556" d="M8 12l8 8 8-8"></path>
