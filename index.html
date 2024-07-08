@@ -21,7 +21,7 @@
     
     <script type="module" crossorigin src="/portfolio-fullstack-developer/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/portfolio-fullstack-developer/assets/vendor-8b9fa5ec.js">
-    <link rel="stylesheet" href="/portfolio-fullstack-developer/assets/index-32cb6364.css">
+    <link rel="stylesheet" href="/portfolio-fullstack-developer/assets/index-261c51ec.css">
   </head>
 
   <body>
@@ -583,25 +583,27 @@
   <div class="container"></div>
 </section>
 
-      <section class="container">
-  <div class="reviews">
+      <section class="reviews-section" id="reviews">
+  <div class="reviews-container">
     <h2 class="reviews-title">Reviews</h2>
-    <div class="flex-reviews">
-      <div class="swiper-reviews">
-        <ul class="reviews-list swiper-wrapper">
-          <!-- reviews -->
-        </ul>
 
-        <div class="reviews-div-btn">
-          <button type="button" class="reviews-btn js-btn-prev">
-            <svg class="reviews-icon js-icon-prev">
-              <use xlink:href="/portfolio-fullstack-developer/assets/icons-ed42f156.svg#icon-arrows-left"></use>
+    <div class="swiper" id="swiper3">
+      <p class="show-news"></p>
+      <ul class="swiper-wrapper" id="review-swiper-list"></ul>
+
+      <div class="slider-buttons">
+        <div class="btn-prev-review-wrapper">
+          <button class="btn-prev-review" aria-label="Previous Review">
+            <svg class="reviews-arrow-left">
+              <use href="./img/icon.svg#icon-arrow-left-dark"></use>
             </svg>
           </button>
+        </div>
 
-          <button type="button" class="reviews-btn js-btn-next">
-            <svg class="reviews-icon js-icon-next">
-              <use xlink:href="/portfolio-fullstack-developer/assets/icons-ed42f156.svg#icon-arrow-right"></use>
+        <div class="btn-next-review-wrapper">
+          <button class="btn-next-review" aria-label="Next Review">
+            <svg class="reviews-arrow-right">
+              <use href="./img/icon.svg#icon-arrow-right-white"></use>
             </svg>
           </button>
         </div>
@@ -609,7 +611,6 @@
     </div>
   </div>
 </section>
-
     </main>
     <footer class="footer container" id="footer">
   <section>
