@@ -8,14 +8,18 @@ new Swiper(refs.skillsSwiper, {
 
   slidesPerView: 2,
   width: 260,
-  //   spaceBetween: 0,
-  //   slidesPerGroup: 2,
-
   navigation: {
     nextEl: '.swiper-button-next',
   },
   keyboard: {
     enabled: true,
     onlyInViewport: false,
+  },
+  breakpoints: {
+    768: {
+      slidesPerView: 3,
+      width: 600,
+    },
+    1440: { slidesPerView: 6, width: 1200 },
   },
 });
