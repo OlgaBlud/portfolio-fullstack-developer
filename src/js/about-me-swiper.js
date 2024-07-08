@@ -6,8 +6,6 @@ new Swiper(refs.skillsSwiper, {
   direction: 'horizontal',
   loop: true,
 
-  slidesPerView: 2,
-  width: 260,
   navigation: {
     nextEl: '.swiper-button-next',
   },
@@ -16,10 +14,17 @@ new Swiper(refs.skillsSwiper, {
     onlyInViewport: false,
   },
   breakpoints: {
+    320: {
+      slidesPerView: 2,
+      width: 260,
+    },
     768: {
       slidesPerView: 3,
       width: 600,
     },
-    1440: { slidesPerView: 6, width: 1200 },
+    1440: {
+      slidesPerView: 5,
+      width: 1000,
+    },
   },
 });
