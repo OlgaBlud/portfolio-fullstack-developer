@@ -3,4 +3,4 @@ function it(s){return s&&s.__esModule&&Object.prototype.hasOwnProperty.call(s,"d
         rotateZ(${m.rotate?n?-I:I:0}deg)
         scale(${z})
       `;if(m.slideShadows){let T=d.querySelector(".swiper-slide-shadow");T||(T=le("cards",d)),T&&(T.style.opacity=Math.min(Math.max((Math.abs(w)-.5)/.5,0),1))}d.style.zIndex=-Math.abs(Math.round(h))+p.length;const E=he(m,d);E.style.transform=S}},setTransition:p=>{const u=e.slides.map(n=>ae(n));u.forEach(n=>{n.style.transitionDuration=`${p}ms`,n.querySelectorAll(".swiper-slide-shadow").forEach(m=>{m.style.transitionDuration=`${p}ms`})}),Ee({swiper:e,duration:p,transformElements:u})},perspective:()=>!0,overwriteParams:()=>({watchSlidesProgress:!0,virtualTranslate:!e.params.cssMode})})}const Us=[Ss,Es,xs,Ts,Ms,Cs,Ps,Ls,Is,As,zs,Ds,Os,$s,ks,Gs,Ns,Ys,Vs,qs,Ws,_s,js];K.use(Us);export{Ks as A,K as S};
-//# sourceMappingURL=vendor-8b9fa5ec.js.map
+//# sourceMappingURL=vendor-11942d3b.js.map
