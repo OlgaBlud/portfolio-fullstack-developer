@@ -1,36 +1,38 @@
-.covers-section {
-  max-width: 1440px;
-  max-height: 960px;
-  position: relative;
+.covers-section{
+  height: 960px;
+  padding-left: 0;
+  padding-right: 0;
 }
-  /* .content {
-    position: relative;
-  } */
+
+.con-caver {
+  min-width: 1440px;
+  height: 960px;
+  overflow: hidden;
+}
+  
   .marquee {
-    position: absolute;
-    right: -800px;
-    left: 0;
     overflow: hidden;
     font-family: "Pridi", sans-serif;
     font-weight: 600;
     font-size: 34px;
     text-transform: uppercase;
+  
   }
   
   .marquee__inner {
-     height: 100vh;
+     height: 400px;
      display: flex;
      transform: rotate(16deg);
   }
   
   .marquee__line {
-    /* background-color: #FFDC00; */
     flex-shrink: 0;
-    margin-right: 10px; 
+    margin-right: 20px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    width: calc(100% / 8); 
+    width: 544px;
+    height: 314px; 
     white-space: nowrap;
     animation-name: marqueeLine;
     animation-duration: 5s;
@@ -67,6 +69,10 @@
 
 
 
-@media only screen and (max-widt:767px) {
-  
-}
+@media only screen and (max-widt:767px) {}
+
+
+@media only screen and (min-widt:768px) {}
+
+
+@media only screen and (min-widt:1440px) {}
