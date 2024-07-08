@@ -21,7 +21,7 @@
     
     <script type="module" crossorigin src="/portfolio-fullstack-developer/commonHelpers.js"></script>
     <link rel="modulepreload" crossorigin href="/portfolio-fullstack-developer/assets/vendor-8b9fa5ec.js">
-    <link rel="stylesheet" href="/portfolio-fullstack-developer/assets/index-c90fe12d.css">
+    <link rel="stylesheet" href="/portfolio-fullstack-developer/assets/index-a4e3e8f2.css">
   </head>
 
   <body>
@@ -646,13 +646,17 @@
 
     <h2 class="footer-title">TOGETHER</h2>
     <form class="footer-form">
-      <input
-        class="mail-input"
-        type="email"
-        placeholder="clients@gmail.com"
-        pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
-      />
-      <input type="text" placeholder="comments" />
+      <div class="email-container">
+        <input
+          class="mail-input"
+          type="email"
+          placeholder="clients@gmail.com"
+          pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$"
+          spellcheck="false"
+        />
+        <span class="email-err"></span>
+      </div>
+      <input class="message-input" type="text" placeholder="comments" />
       <button class="submit-btn" type="submit">Send</button>
     </form>
     <address class="contact-block">
@@ -671,7 +675,24 @@
       </ul>
     </address>
   </section>
+  <div class="backdrop">
+    <div class="modal-window is-open">
+      <button class="modal-close-btn" type="button">
+        <svg class="modal-close-btn-icon" width="24" height="24">
+          <use href="/portfolio-fullstack-developer/assets/icons-27b46211.svg#close-icon"></use>
+        </svg>
+      </button>
+      <h2 class="modal-title">Thank you for your interest in cooperation</h2>
+      <p class="modal-text">
+        The manager will contact you shortly to discuss further details and
+        opportunities for cooperation. Please stay in touch.
+      </p>
+    </div>
+  </div>
 </footer>
+<!--<script type="module" src="../js/work-together-validation.js"></script>
+<script type="module" src="../js/work-together-api.js"></script>
+<script type="module" src="../js/work-together-modal.js"></script> -->
 
     <div class="modal-overlay">
   <div class="modal" id="modal-menu">
