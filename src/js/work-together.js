@@ -52,28 +52,27 @@ formEl.addEventListener('submit', async e => {
   const messageValue = messageInput.value.trim();
   if (emailValue && messageValue) {
     const data = loadFromLs('UserData');
-    console.log(data);
     formEl.reset();
     localStorage.removeItem('UserData');
   }
   try {
     const data = await postForm(emailValue, messageValue);
     if (data.title === 'Thank you for your interest in cooperation!') {
-      backdrop.classList.add('is-open');
+      backdrop.classList.add('modal-is-open');
       formEl.reset();
 
       backdrop.addEventListener('click', e => {
         if (e.target === e.currentTarget) {
-          backdrop.classList.remove('is-open');
+          backdrop.classList.remove('modal-is-open');
         }
       });
       closeBtn.addEventListener('click', e => {
-        backdrop.classList.remove('is-open');
+        backdrop.classList.remove('modal-is-open');
       });
 
       window.addEventListener('keydown', e => {
         if (e.code === 'Escape') {
-          backdrop.classList.remove('is-open');
+          backdrop.classList.remove('modal-is-open');
         }
       });
     } else {
