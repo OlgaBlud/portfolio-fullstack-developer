@@ -5,3 +5,4 @@ import './js/work-together';
 import './js/reviews/render-functions';
 import './js/reviews/reviews';
 import './js/header';
+import './js/covers';
