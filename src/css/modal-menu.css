@@ -53,11 +53,8 @@
   height: 55px;
   background-color: #ed3b44;
 }
-/* .is-open {
-  opacity: 0;
-  pointer-events: none;
-} */
-.is-open {
+
+.show {
   opacity: 1;
   pointer-events: auto;
   transition: opacity 250ms ease-in-out;
@@ -65,13 +62,17 @@
 /* =============Tablet version================= */
 @media screen and (min-width: 768px) {
   .modal-overlay {
-    position: absolute;
-    top: 13%;
-    left: 47%;
-    width: 50%;
+    top: 7%;
+    left: 30%;
+    width: 15%;
     height: 15%;
+    opacity: 0;
   }
-
+  .show {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 250ms ease-in-out;
+  }
   .modal {
     padding: 0;
     justify-content: center;
@@ -87,13 +88,12 @@
     display: none;
   }
   .list-menu {
-    text-align: center;
+    position: fixed;
     background-color: transparent;
+    min-width: 160px;
+    overflow: auto;
   }
   .project-btn {
     display: none;
   }
-  /* .a-style {
-    text-decoration: none;
-  } */
 }
