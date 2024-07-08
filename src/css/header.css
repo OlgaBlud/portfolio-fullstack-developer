@@ -4,11 +4,11 @@
   max-width: 375px;
   padding: 31px 16px 0 16px;
   margin: 0 auto;
-  background-image: url(../img/img-header/Hero2x.jpg);
-  position: fixed;
+  background-color: transparent;
+  position: absolute;
   left: 0;
   top: 0;
-  z-index: 10;
+  z-index: 100;
   width: 100%;
 }
 .btn-open-menu {
@@ -39,6 +39,7 @@
     padding: 32px;
   }
   .menu {
+    position: relative;
     display: flex;
     font-weight: 500;
     font-size: 16px;
