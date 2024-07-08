@@ -1,13 +1,13 @@
 .covers-section{
-  height: 960px;
   padding-left: 0;
   padding-right: 0;
 }
 
 .con-caver {
-  min-width: 1440px;
-  height: 960px;
+  min-width: 320px;
+  height: 504px;
   overflow: hidden;
+  background-image: url(../img/img-cover/fon-2x-min.png);
 }
   
   .marquee {
@@ -20,7 +20,7 @@
   }
   
   .marquee__inner {
-     height: 400px;
+     height: 200px;
      display: flex;
      transform: rotate(16deg);
   }
@@ -30,14 +30,14 @@
     margin-right: 20px; 
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 544px;
-    height: 314px; 
+    justify-content: center; 
     white-space: nowrap;
     animation-name: marqueeLine;
     animation-duration: 5s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    width: 282px;
+    height: 162px
   }
 
   /* .marquee_animation {
@@ -68,11 +68,34 @@
 }
 
 
+@media only screen and (min-widt:768px) {
+  .con-caver {
+    min-width: 768px;
+    height: 960px;
+  }
+  .marquee__inner {
+    height: 370px;
+  }
+  .marquee__line {
+    margin-right: 20px; 
+    width: 544px;
+    height: 314px; 
+  }
+}
 
-@media only screen and (max-widt:767px) {}
 
+@media only screen and (min-widt:1440px) {
+  .con-caver {
+    min-width: 1440px;
+  }
+  
+  .marquee__inner {
+    height: 400px;
+ }
 
-@media only screen and (min-widt:768px) {}
-
-
-@media only screen and (min-widt:1440px) {}
+ .marquee__line {
+  margin-right: 20px; 
+  width: 544px;
+  height: 314px; 
+}
+}
