@@ -6,6 +6,9 @@
   height: 100%;
   z-index: 999;
   background-color: transparent;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 250ms ease-in-out;
 }
 .modal {
   display: inline-flex;
@@ -29,6 +32,7 @@
   left: 300px;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 .a-style {
   font-weight: 500;
@@ -49,12 +53,47 @@
   height: 55px;
   background-color: #ed3b44;
 }
-.is-open {
+/* .is-open {
   opacity: 0;
   pointer-events: none;
-}
-.modal-overlay .is-open {
+} */
+.is-open {
   opacity: 1;
-  pointer-events: all;
-  transition: opacity 300ms;
+  pointer-events: auto;
+  transition: opacity 250ms ease-in-out;
+}
+/* =============Tablet version================= */
+@media screen and (min-width: 768px) {
+  .modal-overlay {
+    position: absolute;
+    top: 13%;
+    left: 47%;
+    width: 50%;
+    height: 15%;
+  }
+
+  .modal {
+    padding: 0;
+    justify-content: center;
+    margin: 0;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+    color: #fafafa;
+  }
+  .close-btn {
+    display: none;
+  }
+  .list-menu {
+    text-align: center;
+    background-color: transparent;
+  }
+  .project-btn {
+    display: none;
+  }
+  /* .a-style {
+    text-decoration: none;
+  } */
 }
