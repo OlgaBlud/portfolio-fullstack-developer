@@ -68,9 +68,8 @@
 }
 
 
-@media only screen and (min-widt:768px) {
+@media screen and (min-width: 768px) {
   .con-caver {
-    min-width: 768px;
     height: 960px;
   }
   .marquee__inner {
@@ -84,10 +83,7 @@
 }
 
 
-@media only screen and (min-widt:1440px) {
-  .con-caver {
-    min-width: 1440px;
-  }
+@media screen and (min-width: 1440px) {
   
   .marquee__inner {
     height: 400px;
