@@ -1,5 +1,5 @@
 @import url('accordion-js/dist/accordion.min.css');
-@import url('swiper/css');
+@import url('swiper/css/bundle');
 @import url('./base.css');
 @import url('./reset.css');
 @import url('./header.css');
