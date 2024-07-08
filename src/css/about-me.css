@@ -132,7 +132,8 @@
   line-height: 1.5;
   letter-spacing: -0.02em;
 } */
-.skills-item:first-child {
+.skills-item:first-child,
+.swiper-slide-active {
   background-color: #ed3b44;
 }
 .skills-item:not(:first-child) {
@@ -149,7 +150,9 @@
 }
 .about-me-swiper-btn {
   background-color: transparent;
-  border: none;
+  border: 1px solid #fafafa;
+  width: 30px;
+  height: 30px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -173,7 +176,7 @@
     font-size: 20px;
   }
   .swiper {
-    width: 604px;
+    width: 704px;
     height: 200px;
   }
 }
@@ -189,6 +192,6 @@
     width: 680px;
   }
   .swiper {
-    width: 1200px;
+    width: 1312px;
   }
 }
