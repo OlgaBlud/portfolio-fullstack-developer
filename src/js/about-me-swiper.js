@@ -1,30 +1,30 @@
-// import Swiper from 'swiper';
 import { refs } from './refs';
 import Swiper from 'swiper/bundle';
 
 new Swiper(refs.skillsSwiper, {
   direction: 'horizontal',
   loop: true,
-
+  touch: true,
+  slidesPerView: 2,
+  slideClass: 'about-me-skills-item',
+  wrapperClass: 'about-me-skills-list',
+  slideActiveClass: 'about-me-skills-item-active',
   navigation: {
-    nextEl: '.swiper-button-next',
+    nextEl: '.about-me-skills-btn',
   },
   keyboard: {
     enabled: true,
-    onlyInViewport: false,
+    onlyInViewport: true,
   },
   breakpoints: {
     320: {
       slidesPerView: 2,
-      width: 260,
     },
     768: {
       slidesPerView: 3,
-      width: 600,
     },
     1440: {
-      slidesPerView: 5,
-      width: 1000,
+      slidesPerView: 6,
     },
   },
 });
