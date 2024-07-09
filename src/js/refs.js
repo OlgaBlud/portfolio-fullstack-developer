@@ -13,4 +13,5 @@ export const refs = {
   skillsList: document.querySelector('.skills-list'),
   aboutMeList: document.querySelector('.about-me-list'),
   skillsSwiper: document.querySelector('.skills-swiper'),
+  faqList: document.querySelector('.faq-list'),
 };
