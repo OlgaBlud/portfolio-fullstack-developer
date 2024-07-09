@@ -61,8 +61,13 @@
     pointer-events: none;
     transition: opacity 250ms ease-in-out;
   }
+  .show {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 250ms ease-in-out;
+  }
   .header-order-project-btn {
-    /* display: block; */
+    display: block;
     border-radius: 60px;
     border: none;
     padding: 18px 0;
@@ -75,11 +80,7 @@
     background-color: #ed3b44;
     color: #fafafa;
   }
-  .show {
-    opacity: 1;
-    pointer-events: auto;
-    transition: opacity 250ms ease-in-out;
-  }
+
   .header-open-menu-btn {
     display: none;
   }

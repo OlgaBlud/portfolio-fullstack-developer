@@ -1,11 +1,11 @@
 import { refs } from './refs';
 
 //===============Відкриття модального вікна
-refs.btnOpenMenu.addEventListener('click', () => {
+refs.headerOpenMenuBtn.addEventListener('click', () => {
   refs.modalOverlay.classList.add('show');
 });
 // =================Закриття модального вікна кнопкою
-refs.btnClose.addEventListener('click', () => {
+refs.closeBtnModal.addEventListener('click', () => {
   refs.modalOverlay.classList.remove('show');
 });
 
