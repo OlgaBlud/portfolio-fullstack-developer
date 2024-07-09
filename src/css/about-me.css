@@ -191,6 +191,18 @@
   .about-me-general-text {
     width: 680px;
   }
+  .about-me-item-text-container {
+    width: 612px;
+    margin-left: auto;
+    padding-right: 68px;
+  }
+  .role-list,
+  .education-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 68px;
+  }
   .swiper {
     width: 1312px;
   }
