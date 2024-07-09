@@ -7,7 +7,7 @@ section {
   padding-bottom: 64px;
 }
 .container {
-  min-width: 375px;
+  max-width: 375px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
@@ -18,7 +18,7 @@ section {
     padding-bottom: 96px;
   }
   .container {
-    width: 768px;
+    max-width: 768px;
     padding: 0 32px;
   }
 }
@@ -27,7 +27,7 @@ section {
     padding-bottom: 164px;
   }
   .container {
-    width: 1440px;
+    max-width: 1440px;
   }
 }
 /* common for  btn */
