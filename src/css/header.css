@@ -1,19 +1,22 @@
-.header-container {
-  display: flex;
-  justify-content: space-between;
-  max-width: 375px;
-  padding: 31px 16px 0 16px;
-  margin: 0 auto;
-  background-color: transparent;
+.header {
   position: absolute;
+  padding-top: 32px;
   left: 0;
   top: 0;
   z-index: 100;
   width: 100%;
 }
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
 .btn-open-menu {
+  stroke-width: 2px;
   background: transparent;
-  align-self: start;
+  width: 28px;
+  height: 28px;
+  padding: 0;
   border: none;
 }
 .img-header {
@@ -34,10 +37,6 @@
 
 /* =============Tablet version================= */
 @media screen and (min-width: 768px) {
-  .header-container {
-    max-width: 768px;
-    padding: 32px;
-  }
   .menu {
     position: relative;
     display: flex;
@@ -69,8 +68,5 @@
   }
 }
 /* ===========Desctop version==================== */
-@media only screen and (min-width: 1158px) {
-  .header-container {
-    max-width: 1158px;
-  }
+@media only screen and (min-width: 1140px) {
 }

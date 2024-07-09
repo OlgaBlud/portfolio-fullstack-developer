@@ -15,7 +15,7 @@
   gap: 12px;
   justify-content: center;
   padding: 302px 152px 398px 154px;
-  background-image: url(./img/header/Hero2x.jpg);
+  background-image: url(../img/Hero/Hero_Mob.png);
   margin: 0;
   max-width: 373px;
   max-height: 100%;
@@ -34,12 +34,7 @@
   background-color: transparent;
   cursor: pointer;
 }
-.a-style {
-  font-weight: 500;
-  font-size: 14px;
-  color: #fafafa;
-  letter-spacing: -0.02em;
-}
+
 .list-menu {
   cursor: pointer;
   line-height: 2;
@@ -49,6 +44,7 @@
 .cursor:hover {
   cursor: pointer;
 }
+
 .project-btn {
   display: flex;
   border-radius: 60px;
@@ -57,6 +53,11 @@
   width: 163px;
   height: 55px;
   background-color: #ed3b44;
+  text-decoration: none;
+}
+.project-btn:hover,
+.project-btn:focus {
+  text-decoration: none;
 }
 
 .show {
