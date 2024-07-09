@@ -14,5 +14,6 @@ export const refs = {
   aboutMeList: document.querySelector('.about-me-list'),
   skillsSwiper: document.querySelector('.skills-swiper'),
   marqueeLine: document.querySelectorAll('.marquee__line'),
-  coversSection: document.querySelector('.covers-section')
+  coversSection: document.querySelector('.covers-section'),
+  faqList: document.querySelector('.faq-list'),
 };
