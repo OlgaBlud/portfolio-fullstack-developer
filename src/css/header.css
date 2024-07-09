@@ -1,76 +1,64 @@
+.header {
+  position: absolute;
+  padding-top: 32px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
 .header-container {
   display: flex;
   justify-content: space-between;
-  max-width: 375px;
-  padding: 31px 16px 0 16px;
-  margin: 0 auto;
-  background-color: transparent;
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 100;
-  width: 100%;
 }
-.btn-open-menu {
-  background: transparent;
-  align-self: start;
-  border: none;
-}
-.img-header {
-  border-radius: 18px;
-  width: 80px;
-  height: 80px;
-}
-.position {
+.header-logo-link {
   display: flex;
   gap: 8px;
 }
-.menu {
+.header-img {
+  border-radius: 18px;
+  overflow: hidden;
+}
+.header-menu-btn {
   display: none;
 }
-.order-project-btn {
+.header-order-project-btn {
   display: none;
 }
-
+.header-open-menu-btn {
+  background: transparent;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: none;
+}
 /* =============Tablet version================= */
-@media screen and (min-width: 768px) {
-  .header-container {
-    max-width: 768px;
-    padding: 32px;
-  }
-  .menu {
-    position: relative;
-    display: flex;
+@media only screen and (min-width: 768px) {
+  .header-menu-btn {
+    display: block;
+    padding-bottom: 55px;
+    border: none;
+    background-color: transparent;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
     text-decoration: underline;
-    text-decoration-skip-ink: none;
     color: #fafafa;
   }
-  .menu:hover {
-    cursor: pointer;
-  }
-  .btn-open-menu {
-    display: none;
-  }
-  .order-project-btn {
+  .header-order-project-btn {
+    display: block;
     border-radius: 60px;
     border: none;
-    padding: 18px 24px;
-    width: 163px;
+    padding: 18px 0;
+    min-width: 163px;
     height: 55px;
+    text-align: center;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: -0.02em;
     background-color: #ed3b44;
     color: #fafafa;
-    display: flex;
   }
-}
-/* ===========Desctop version==================== */
-@media only screen and (min-width: 1158px) {
-  .header-container {
-    max-width: 1158px;
+  .header-open-menu-btn {
+    display: none;
   }
 }
