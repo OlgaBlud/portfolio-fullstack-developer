@@ -46,8 +46,6 @@
 @media only screen and (min-width: 768px) {
   .header-menu-btn {
     text-align: center;
-    /* display: block; */
-    /* padding-bottom: 55px; */
     border: none;
     background-color: transparent;
     font-weight: 500;
@@ -57,6 +55,7 @@
     color: #fafafa;
   }
   .dropdown-menu-list {
+    line-height: 2;
     opacity: 0;
     pointer-events: none;
     transition: opacity 250ms ease-in-out;
