@@ -31,6 +31,6 @@ refs.close5.addEventListener('click', () => {
   refs.modalOverlay.classList.remove('show');
 });
 
-refs.menuTablet.addEventListener('click', () => {
-  refs.modalOverlay.classList.toggle('show');
+refs.headerMenuBtn.addEventListener('click', () => {
+  refs.dropdownMenuList.classList.toggle('show');
 });
