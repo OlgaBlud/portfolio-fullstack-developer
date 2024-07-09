@@ -70,8 +70,7 @@
 </svg>
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
-<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<defs>
+
 <symbol id="icon-jefferson" viewBox="0 0 141 32">
 <path fill="#fafafa" style="fill: var(--color1, #fafafa)" d="M133.416 15.158l0.234-4.936-4.313 2.685-1.337-2.219 4.58-2.251-4.58-2.251 1.337-2.251 4.313 2.685-0.234-4.936h2.641l-0.234 4.936 4.313-2.685 1.337 2.251-4.58 2.251 4.58 2.251-1.337 2.219-4.313-2.685 0.234 4.936h-2.641z"></path>
 <path fill="#fafafa" style="fill: var(--color1, #fafafa)" d="M112.987 14.412v10.851h-3.513v-18.297h3.415v3.011h0.244c0.412-0.993 1.057-1.778 1.936-2.357 0.878-0.589 2.006-0.884 3.383-0.884 1.236 0 2.315 0.262 3.236 0.786 0.933 0.513 1.654 1.282 2.163 2.308 0.52 1.026 0.781 2.297 0.781 3.813v11.62h-3.513v-11.194c0-1.32-0.347-2.357-1.041-3.11-0.694-0.764-1.637-1.146-2.83-1.146-0.813 0-1.545 0.185-2.196 0.556-0.64 0.36-1.144 0.878-1.512 1.555s-0.553 1.506-0.553 2.488z"></path>
@@ -86,9 +85,13 @@
 </symbol>
 </defs>
 </svg>
+
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
 <symbol id="icon-Icon-burger" viewBox="0 0 64 32">
 <path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="5.3333" d="M4 5.111h56M4 26.889h56"></path>
 </symbol>
 </defs>
 </svg>
+
 
