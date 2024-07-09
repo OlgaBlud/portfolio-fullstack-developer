@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
 }
 
-.h1h {
+.title-Hero {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 50px;
@@ -99,7 +99,7 @@
         background-image: url(../img/Hero/Hero_Tabl.png);
     }
 
-    .h1h {
+    .title-Hero {
         line-height: 90px;
         font-size: 90px;
         letter-spacing: -0.03em;
@@ -125,7 +125,7 @@
         background-size: cover;
     }
 
-    .h1h {
+    .title-Hero {
         margin-bottom: 243px;
     }
 }
