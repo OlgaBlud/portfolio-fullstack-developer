@@ -4,28 +4,30 @@ body {
   color: #fafafa;
 }
 section {
-  padding: 32px 16px;
+  padding-bottom: 64px;
 }
 .container {
   max-width: 375px;
   margin-left: auto;
   margin-right: auto;
+  padding: 0 16px;
 }
 
 @media only screen and (min-width: 768px) {
   section {
-    padding: 48px 32px;
+    padding-bottom: 96px;
   }
   .container {
-    max-width: 704px;
+    max-width: 768px;
+    padding: 0 32px;
   }
 }
 @media only screen and (min-width: 1440px) {
   section {
-    padding: 82px 32px;
+    padding-bottom: 164px;
   }
   .container {
-    max-width: 1376px;
+    max-width: 1440px;
   }
 }
 /* common for  btn */
