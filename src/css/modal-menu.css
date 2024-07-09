@@ -10,12 +10,12 @@
   pointer-events: none;
   transition: opacity 250ms ease-in-out;
 }
-.modal {
+.modal-header {
   display: inline-flex;
   gap: 12px;
   justify-content: center;
   padding: 302px 152px 398px 154px;
-  background-image: url(../img/img-header/Hero2x.jpg);
+  background-image: url(./img/header/Hero2x.jpg);
   margin: 0;
   max-width: 373px;
   max-height: 100%;
@@ -41,8 +41,13 @@
   letter-spacing: -0.02em;
 }
 .list-menu {
+  cursor: pointer;
+  line-height: 2;
   text-align: center;
   margin-bottom: 289px;
+}
+.cursor:hover {
+  cursor: pointer;
 }
 .project-btn {
   display: flex;
@@ -73,7 +78,7 @@
     pointer-events: auto;
     transition: opacity 250ms ease-in-out;
   }
-  .modal {
+  .modal-header {
     padding: 0;
     justify-content: center;
     margin: 0;

@@ -43,6 +43,19 @@ input {
   outline: none;
 }
 
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: #fafafa;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
 input:hover::placeholder,
 input:focus::placeholder {
   color: #fafafa;
@@ -125,7 +138,7 @@ input:focus {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-open {
+.modal-is-open {
   opacity: 100%;
   visibility: visible;
 }
