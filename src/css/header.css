@@ -62,10 +62,14 @@
     height: 55px;
     font-weight: 500;
     font-size: 14px;
+
     letter-spacing: -0.02em;
     background-color: #ed3b44;
     color: #fafafa;
     display: flex;
+  }
+  .position-text {
+    margin: auto;
   }
 }
 /* ===========Desctop version==================== */

@@ -37,6 +37,7 @@
 .a-style {
   font-weight: 500;
   font-size: 14px;
+  margin: auto;
   color: #fafafa;
   letter-spacing: -0.02em;
 }
@@ -67,6 +68,7 @@
 /* =============Tablet version================= */
 @media screen and (min-width: 768px) {
   .modal-overlay {
+    position: absolute;
     top: 7%;
     left: 30%;
     width: 15%;
