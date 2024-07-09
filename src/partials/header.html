@@ -1,7 +1,7 @@
 <header class="header" id="header">
   <div class="container header-container">
-    <a href="#header" class="position">
-      <picture>
+    <a href="#header" class="header-logo-link">
+      <!-- <picture>
         <source
           srcset="
             ./img/header/Jefferson@1x-Desk.jpg 1x,
@@ -21,13 +21,17 @@
             ./img/header/Jefferson@2x-mob.jpg 2x
           "
           media="(max-width: 767px)"
-        />
-        <img
-          src="./img/header/Jefferson@2x-mob.jpg"
-          alt="my-photo"
-          class="img-header"
-        />
-      </picture>
+        /> -->
+      <img
+        srcset="
+          ./img/header/Jefferson@1x-mob.jpg 1x,
+          ./img/header/Jefferson@2x-mob.jpg 2x
+        "
+        src="../img/header/Jefferson@1x-tab.jpg"
+        alt="my-photo"
+        class="header-img"
+      />
+      <!-- </picture> -->
       <svg
         width="84"
         height="19"
@@ -77,9 +81,9 @@
         />
       </svg>
     </a>
-    <div class="menu">Menu</div>
-    <a href="#footer" class="order-project-btn">Order the project</a>
-    <button type="button" class="btn-open-menu">
+    <button type="button" class="header-menu-btn">Menu</button>
+    <a href="#footer" class="header-order-project-btn">Order the project</a>
+    <button type="button" class="header-open-menu-btn">
       <svg
         width="24"
         height="12"
