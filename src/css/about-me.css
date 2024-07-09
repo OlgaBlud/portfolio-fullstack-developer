@@ -107,7 +107,7 @@
   flex-wrap: wrap;
 } */
 
-.skills-item {
+.skills-swiper .skills-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,7 +145,7 @@
   width: 343px;
   height: 130px;
 }
-.swiper-button-next:after {
+.skills-swiper .swiper-button-next:after {
   content: none;
 }
 .about-me-swiper-btn {
@@ -169,7 +169,7 @@
   .about-me-item:not(:last-child) {
     margin-bottom: 32px;
   }
-  .skills-item {
+  .skills-swiper .skills-item {
     width: 200px;
     height: 200px;
     line-height: 1;
