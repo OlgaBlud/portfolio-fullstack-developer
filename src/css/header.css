@@ -6,15 +6,6 @@
     display: none;
   }
 }
-.header-menu-btn {
-}
-
-.dropdown-menu-item {
-  text-align: center;
-}
-.dropdown-menu-link {
-}
-
 .header {
   position: absolute;
   padding-top: 32px;
@@ -35,6 +26,11 @@
   border-radius: 18px;
   overflow: hidden;
 }
+
+.dropdown-menu-item {
+  text-align: center;
+}
+
 .header-open-menu-btn {
   background: transparent;
   width: 28px;
@@ -45,6 +41,7 @@
 /* =============Tablet version================= */
 @media only screen and (min-width: 768px) {
   .header-menu-btn {
+    position: relative;
     text-align: center;
     border: none;
     background-color: transparent;
@@ -55,7 +52,8 @@
     color: #fafafa;
   }
   .dropdown-menu-list {
-    line-height: 2;
+    position: absolute;
+    line-height: 1.7;
     opacity: 0;
     pointer-events: none;
     transition: opacity 250ms ease-in-out;
