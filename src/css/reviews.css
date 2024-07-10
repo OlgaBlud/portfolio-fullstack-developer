@@ -1,4 +1,16 @@
 /* /*/
+.reviews-container {
+  width: 100%;
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: var(--background);
+
+  padding: 0 16px;
+}
+.reviews-section {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .reviews-title {
   font-weight: 600;
   font-size: 16px;
@@ -26,6 +38,13 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1439px) {
+  .reviews-section {
+    margin: 48px 32px;
+  }
+
+  .reviews-container {
+    max-width: 768px;
+  }
   .reviews-item {
     /* width: calc((100% - 16px * 3) / 2);    */
     box-sizing: border-box;
@@ -36,6 +55,12 @@
   .reviews-item {
     width: calc((100% - 16px * 3) / 4);
     box-sizing: border-box;
+  }
+  .reviews-section {
+    margin: 82px 0;
+  }
+  .reviews-container {
+    max-width: 1440px;
   }
 }
 
