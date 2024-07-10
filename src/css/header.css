@@ -1,3 +1,20 @@
+@media only screen and (max-width: 767px) {
+  .dropdown-menu-wrapper {
+    display: none;
+  }
+  .header-order-project-btn {
+    display: none;
+  }
+}
+.header-menu-btn {
+}
+
+.dropdown-menu-item {
+  text-align: center;
+}
+.dropdown-menu-link {
+}
+
 .header {
   position: absolute;
   padding-top: 32px;
@@ -18,12 +35,6 @@
   border-radius: 18px;
   overflow: hidden;
 }
-.header-menu-btn {
-  display: none;
-}
-.header-order-project-btn {
-  display: none;
-}
 .header-open-menu-btn {
   background: transparent;
   width: 28px;
@@ -34,8 +45,7 @@
 /* =============Tablet version================= */
 @media only screen and (min-width: 768px) {
   .header-menu-btn {
-    display: block;
-    padding-bottom: 55px;
+    text-align: center;
     border: none;
     background-color: transparent;
     font-weight: 500;
@@ -43,6 +53,17 @@
     letter-spacing: -0.02em;
     text-decoration: underline;
     color: #fafafa;
+  }
+  .dropdown-menu-list {
+    line-height: 2;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 250ms ease-in-out;
+  }
+  .show {
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 250ms ease-in-out;
   }
   .header-order-project-btn {
     display: block;
@@ -58,6 +79,7 @@
     background-color: #ed3b44;
     color: #fafafa;
   }
+
   .header-open-menu-btn {
     display: none;
   }

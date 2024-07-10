@@ -6,8 +6,15 @@
   height: 100%;
   z-index: 999;
   background-color: transparent;
+  visibility: hidden;
   opacity: 0;
   pointer-events: none;
+  transition: opacity 250ms ease-in-out;
+}
+.show {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: auto;
   transition: opacity 250ms ease-in-out;
 }
 .modal-header {
@@ -26,7 +33,7 @@
   text-decoration-skip-ink: none;
   color: #fafafa;
 }
-.close-btn {
+.close-btn-modal {
   position: fixed;
   top: 32px;
   left: 300px;
@@ -58,48 +65,4 @@
 .project-btn:hover,
 .project-btn:focus {
   text-decoration: none;
-}
-
-.show {
-  opacity: 1;
-  pointer-events: auto;
-  transition: opacity 250ms ease-in-out;
-}
-/* =============Tablet version================= */
-@media screen and (min-width: 768px) {
-  .modal-overlay {
-    top: 7%;
-    left: 30%;
-    width: 15%;
-    height: 15%;
-    opacity: 0;
-  }
-  .show {
-    opacity: 1;
-    pointer-events: auto;
-    transition: opacity 250ms ease-in-out;
-  }
-  .modal-header {
-    padding: 0;
-    justify-content: center;
-    margin: 0;
-    background-color: transparent;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: -0.02em;
-    text-decoration: none;
-    color: #fafafa;
-  }
-  .close-btn {
-    display: none;
-  }
-  .list-menu {
-    position: fixed;
-    background-color: transparent;
-    min-width: 160px;
-    overflow: auto;
-  }
-  .project-btn {
-    display: none;
-  }
 }
