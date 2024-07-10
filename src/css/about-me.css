@@ -10,6 +10,7 @@
 /* end reset styles accordion */
 
 .about-me-wrap {
+  padding-top: 64px;
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -19,7 +20,7 @@
 .about-me-general-block {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   gap: 16px;
 }
 .about-me-general-text {
@@ -126,6 +127,7 @@
     flex-direction: row;
   }
   .about-me-general-text {
+    padding-bottom: 64px;
     width: 680px;
   }
   .about-me-item-text-container {
