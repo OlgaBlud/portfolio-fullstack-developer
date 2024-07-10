@@ -10,7 +10,7 @@
     font-weight: 500;
     font-size: 50px;
     line-height: 100%;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
     color: var(--main-text);
     padding-top: 281px;
@@ -94,6 +94,12 @@
     width: auto;
 }
 
+@media (max-width: 374px) {
+    .title-Hero{
+        padding-bottom: 180px;
+    }
+}
+
 @media (min-width: 768px) {
     .hero-section {
         background-image: url(../img/Hero/Hero_Tabl.png);
@@ -126,6 +132,6 @@
     }
 
     .title-Hero {
-        margin-bottom: 243px;
+        padding-bottom: 243px;
     }
 }
