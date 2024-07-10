@@ -11,23 +11,11 @@ refs.closeBtnModal.addEventListener('click', () => {
 
 // =================Закриття модального вікна пр переході за посиланням
 
-refs.close1.addEventListener('click', () => {
+refs.closeModalHeader.addEventListener('click', () => {
   refs.modalOverlay.classList.remove('show');
 });
 
-refs.close2.addEventListener('click', () => {
-  refs.modalOverlay.classList.remove('show');
-});
-
-refs.close3.addEventListener('click', () => {
-  refs.modalOverlay.classList.remove('show');
-});
-
-refs.close4.addEventListener('click', () => {
-  refs.modalOverlay.classList.remove('show');
-});
-
-refs.close5.addEventListener('click', () => {
+refs.closeModalHeaderBtn.addEventListener('click', () => {
   refs.modalOverlay.classList.remove('show');
 });
 
