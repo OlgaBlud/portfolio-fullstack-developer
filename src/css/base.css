@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'InterTight-VariableFont_wght';
+  src: url('../fonts/InterTight-VariableFont_wght.ttf');
+}
+
 body {
-  font-family: 'Inter Tight', sans-serif;
+  font-family: 'InterTight-VariableFont_wght', sans-serif;
   background-color: #1c1d20;
   color: #fafafa;
 }
