@@ -54,17 +54,13 @@
 <symbol id="icon-arrow-up" viewBox="0 0 32 32">
 <path fill="none" stroke="#fafafa" style="stroke: var(--color1, #fafafa)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="3.2" d="M24 20l-8-8-8 8"></path>
 </symbol>
-<symbol id="icon-arrow-right-dark" viewBox="0 0 32 32">
-<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M5.334 16h21.333"></path>
-<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.6" d="M18.666 8l8 8-8 8"></path>
+<symbol id="icon-arrows-right" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.33325 16H26.6666" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M18.6667 8L26.6667 16L18.6667 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 </symbol>
-<symbol id="icon-arrow-right-white" viewBox="0 0 32 32">
-<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M5.333 16h21.333"></path>
-<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M18.667 8l8 8-8 8"></path>
-</symbol>
-<symbol id="icon-arrow-left-dark" viewBox="0 0 32 32">
-<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M26.667 16h-21.333"></path>
-<path fill="none" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667"d="M13.333 24l-8-8 8-8"></path>
+<symbol id="icon-arrows-left" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M26.6667 16H5.33342" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<path d="M13.3333 24L5.33325 16L13.3333 8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
 </symbol>
 </defs>
 </svg>
