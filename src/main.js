@@ -5,3 +5,4 @@ import './js/reviews';
 // import './js/header';
 import './js/covers';
 import './js/faq';
+import './js/projects-swiper';
