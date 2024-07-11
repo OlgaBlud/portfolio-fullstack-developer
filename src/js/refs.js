@@ -11,5 +11,6 @@ export const refs = {
   marqueeLine: document.querySelectorAll('.marquee__line'),
   coversSection: document.querySelector('.covers-section'),
   faqList: document.querySelector('.faq-list'),
+  projectsList: document.querySelector('.project-swiper'),
   dropdownMenuList: document.querySelector('.dropdown-menu-list'),
 };
