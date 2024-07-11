@@ -232,6 +232,9 @@ input:focus {
     margin-top: 64px;
     margin-bottom: 0px;
   }
+  .mail-input {
+    margin-top: 64px;
+  }
 
   .submit-btn {
     min-width: 150px;
