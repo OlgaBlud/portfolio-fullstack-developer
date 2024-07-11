@@ -107,6 +107,7 @@
   .left-top-panel {
     border-bottom-left-radius: 24px;
     border-top-right-radius: 0;
+    width: 50%;
   }
   .right-down-panel {
     padding: 120px 37px;
