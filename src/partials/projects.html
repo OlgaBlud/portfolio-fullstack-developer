@@ -1,4 +1,7 @@
 <section class="projects-section" id="projects">
+  <!--  -->
+
+  <!--  -->
   <div class="container">
     <h2 class="project-title">Projects</h2>
     <div class="projects-panel">
@@ -24,7 +27,7 @@
         <div class="project-swiper">
           <ul class="project-swiper-wrapper">
             <li class="project-swiper-slide" id="P1">
-              <picture class="projects-picture">
+              <!-- <picture class="projects-picture">
                 <source
                   srcset="
                     ./img/projects-section/imageBookDeck-min.png    1x,
@@ -51,10 +54,31 @@
                   alt="my-book"
                   class="projects-photo"
                 />
+              </picture> -->
+              <picture class="projects-picture">
+                <source
+                  srcset="
+                    ./img/projects-section/imageBookTab-min.png    1x,
+                    ./img/projects-section/imageBookTab@2x-min.png 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/projects-section/imageBook-min.png    1x,
+                    ./img/projects-section/imageBook@2x-min.png 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./src/img/projects-section/imageBook-min.png"
+                  alt="my-book"
+                  class="projects-photo"
+                />
               </picture>
             </li>
             <li class="project-swiper-slide" id="P2">
-              <picture class="projects-picture">
+              <!-- <picture class="projects-picture">
                 <source
                   srcset="
                     ./img/projects-section/imagePetDeck-min.png    1x,
@@ -81,10 +105,31 @@
                   alt="my-book"
                   class="projects-photo"
                 />
+              </picture> -->
+              <picture class="projects-picture">
+                <source
+                  srcset="
+                    ./img/projects-section/imagePetTab-min.png    1x,
+                    ./img/projects-section/imagePetTab@2x-min.png 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/projects-section/imagePet-min.png    1x,
+                    ./img/projects-section/imagePet@2x-min.png 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./src/img/projects-section/imagePet-min.png"
+                  alt="my-book"
+                  class="projects-photo"
+                />
               </picture>
             </li>
             <li class="project-swiper-slide" id="P3">
-              <picture class="projects-picture">
+              <!-- <picture class="projects-picture">
                 <source
                   srcset="
                     ./img/projects-section/imageRegisterDeck-min.png    1x,
@@ -92,6 +137,27 @@
                   "
                   media="(min-width: 1440px)"
                 />
+                <source
+                  srcset="
+                    ./img/projects-section/imageRegisterTab-min.png    1x,
+                    ./img/projects-section/imageRegisterTab@2x-min.png 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+                <source
+                  srcset="
+                    ./img/projects-section/imageRegister-min.png    1x,
+                    ./img/projects-section/imageRegister@2x-min.png 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+                <img
+                  src="./src/img/projects-section/imageRegister-min.png"
+                  alt="my-book"
+                  class="projects-photo"
+                />
+              </picture> -->
+              <picture class="projects-picture">
                 <source
                   srcset="
                     ./img/projects-section/imageRegisterTab-min.png    1x,
@@ -120,17 +186,33 @@
       <!-- end right-down-panel -->
     </div>
     <!-- end project panel -->
-  </div>
-  <div class="project-slider-btns-wrap">
-    <button class="project-slider-prev-btn">
-      <svg class="project-right-arrow">
-        <use href="./img/icons.svg#icon-arrow-right-white"></use>
-      </svg>
-    </button>
-    <button class="project-slider-next-btn">
-      <svg class="project-left-arrow">
-        <use href="./img/icons.svg#icon-arrow-right-white"></use>
-      </svg>
-    </button>
+
+    <div class="project-slider-btns-wrap">
+      <button class="project-slider-prev-btn">
+        <svg class="project-right-arrow">
+          <use href="./img/icons.svg#icon-arrow-right-white"></use>
+        </svg>
+      </button>
+      <button class="project-slider-next-btn">
+        <svg class="project-left-arrow">
+          <use href="./img/icons.svg#icon-arrow-right-white"></use>
+        </svg>
+      </button>
+    </div>
   </div>
 </section>
+
+<!-- +++++++++===========+++++++++++++============+++++++++++++++++++++++++=========++++++++++++++==== -->
+
+<!-- <div class="project-slider-btns-wrap">
+    <button class="project-slider-btn proj-slider-left-btn">
+      <svg class="left-arrow" width="24" height="24">
+        <use href="./img/icon.svg#icon-arrow-left-dark"></use>
+      </svg>
+    </button>
+    <button class="project-slider-btn proj-slider-right-btn">
+      <svg class="right-arrow" width="24" height="24">
+        <use href="./img/icon.svg#icon-arrow-right-white"></use>
+      </svg>
+    </button>
+  </div> -->
