@@ -1,4 +1,4 @@
-.covers-section{
+.covers-section {
   padding-left: 0;
   padding-right: 0;
 }
@@ -7,66 +7,64 @@
   min-width: 320px;
   height: 504px;
   overflow: hidden;
-  background-image: url(../img/img-cover/fon-2x-min.png);
-}
-  
-  .marquee {
-    overflow: hidden;
-    font-family: "Pridi", sans-serif;
-    font-weight: 600;
-    font-size: 34px;
-    text-transform: uppercase;
-  
-  }
-  
-  .marquee__inner {
-     height: 200px;
-     display: flex;
-     transform: rotate(16deg);
-  }
-  
-  .marquee__line {
-    flex-shrink: 0;
-    margin-right: 20px; 
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 5s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    width: 282px;
-    height: 162px
-  }
-
-  /* .marquee_animation {
-    
-  }   */
-  
-  @keyframes marqueeLine {
-    from {
-      transform: translateX(-20%);
-    }
-    
-    to {
-      transform: translateX(-180%);
-    }
-  }
-
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  background-image: url(../img/img-cover/elements_vectors.png);
 }
 
+.marquee {
+  overflow: hidden;
+  font-family: 'Pridi', sans-serif;
+  font-weight: 600;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.marquee__inner {
+  height: 200px;
+  display: flex;
+  transform: rotate(16deg);
+}
+
+.marquee__line {
+  flex-shrink: 0;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  width: 282px;
+  height: 162px;
+}
+
+.marquee_animation {
+  animation-name: marqueeLine;
+  animation-duration: 10s;
+  animation-play-state: running;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(-20%);
+  }
+
+  to {
+    transform: translateX(-180%);
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 
 @media screen and (min-width: 768px) {
   .con-caver {
@@ -76,22 +74,20 @@
     height: 370px;
   }
   .marquee__line {
-    margin-right: 20px; 
+    margin-right: 20px;
     width: 544px;
-    height: 314px; 
+    height: 314px;
   }
 }
 
-
 @media screen and (min-width: 1440px) {
-  
   .marquee__inner {
     height: 400px;
- }
+  }
 
- .marquee__line {
-  margin-right: 20px; 
-  width: 544px;
-  height: 314px; 
-}
+  .marquee__line {
+    margin-right: 20px;
+    width: 544px;
+    height: 314px;
+  }
 }

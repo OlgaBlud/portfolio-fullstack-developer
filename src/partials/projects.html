@@ -1,38 +1,29 @@
 <section class="projects-section" id="projects">
   <div class="container">
-    <h2 class="ProjectsH2">Projects</h2>
+    <h2 class="project-title">Projects</h2>
     <div class="projects-panel">
       <div class="left-top-panel">
-        <ul class="tecnology">
-          <li class="tecnology-btn">#react</li>
-          <li class="tecnology-btn">#js</li>
-          <li class="tecnology-btn">#node.js</li>
-          <li class="tecnology-btn">#git</li>
+        <ul class="technology-list">
+          <li class="technology-item">#react</li>
+          <li class="technology-item">#js</li>
+          <li class="technology-item">#node.js</li>
+          <li class="technology-item">#git</li>
         </ul>
-        <p class="my-text">
+        <p class="project-main-text">
           Programming Across Borders: Ideas, Technologies, Innovations
         </p>
-        <button
-          type="submit"
-          onclick="window.location.href = `https://github.com/OlgaBlud/portfolio-fullstack-developer`;"
-          class="btn-project"
+        <a
+          class="project-link red-btn"
+          href="https://olgablud.github.io/portfolio-fullstack-developer/"
         >
           See project
-        </button>
+        </a>
       </div>
       <div class="right-down-panel">
-        <div class="swiper mySwiper">
-          <div class="swiper-wrapper">
-            <div
-              class="swiper-slide"
-              style="
-                display: block;
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-              "
-            >
-              Slide 1
+        <!-- start slider  container  -->
+        <div class="project-swiper">
+          <ul class="project-swiper-wrapper">
+            <li class="project-swiper-slide" id="P1">
               <picture class="projects-picture">
                 <source
                   srcset="
@@ -61,9 +52,8 @@
                   class="projects-photo"
                 />
               </picture>
-            </div>
-            <div class="swiper-slide">
-              Slide 2
+            </li>
+            <li class="project-swiper-slide" id="P2">
               <picture class="projects-picture">
                 <source
                   srcset="
@@ -92,9 +82,8 @@
                   class="projects-photo"
                 />
               </picture>
-            </div>
-            <div class="swiper-slide">
-              slide3
+            </li>
+            <li class="project-swiper-slide" id="P3">
               <picture class="projects-picture">
                 <source
                   srcset="
@@ -123,43 +112,25 @@
                   class="projects-photo"
                 />
               </picture>
-            </div>
-          </div>
-          <div class="arrow-lr">
-            <div class="swiper-button-prev1 btn-project-lr">
-              <button type="button" class=".btn-project-right btn-project-lr">
-                <svg class="project-icon">
-                  <use
-                    xlink:href="./img/icons.svg#icon-arrow-narrow-right"
-                  ></use>
-                </svg>
-              </button>
-            </div>
-            <div class="swiper-button-next1 btn-project-lr">
-              <button type="button" class="btn-project-left btn-project-lr">
-                <svg class="project-icon2">
-                  <use
-                    xlink:href="./img/icons.svg#icon-arrow-narrow-right"
-                  ></use>
-                </svg>
-              </button>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
+        <!-- end slider  container  -->
       </div>
+      <!-- end right-down-panel -->
     </div>
+    <!-- end project panel -->
+  </div>
+  <div class="project-slider-btns-wrap">
+    <button class="project-slider-prev-btn">
+      <svg class="project-right-arrow">
+        <use href="./img/icons.svg#icon-arrow-right-white"></use>
+      </svg>
+    </button>
+    <button class="project-slider-next-btn">
+      <svg class="project-left-arrow">
+        <use href="./img/icons.svg#icon-arrow-right-white"></use>
+      </svg>
+    </button>
   </div>
 </section>
-
-<!-- Swiper JS -->
-<!--<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
-
-<!-- Initialize Swiper -->
-<!-- <script>
-  var swiper = new Swiper('.mySwiper', {
-    navigation: {
-      nextEl: '.swiper-button-next1',
-      prevEl: '.swiper-button-prev1',
-    },
-  });
-</script> -->

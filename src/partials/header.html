@@ -1,37 +1,18 @@
 <header class="header" id="header">
   <div class="container header-container">
     <a href="#header" class="header-logo-link">
-      <!-- <picture>
-        <source
-          srcset="
-            ./img/header/Jefferson@1x-Desk.jpg 1x,
-            ./img/header/Jefferson@2x-Desk.jpg 2x
-          "
-          media="(min-width: 1440px)"
-        />
-        <source
-          srcset="./img/header/Jefferson@1x-tab.jpg 1x,
-           ./img/header/Jefferson@1x-tab.jpg 1x 2x
-          "
-          media="(min-width: 768px)"
-        />
-        <source
-          srcset="
-            ./img/header/Jefferson@1x-mob.jpg 1x,
-            ./img/header/Jefferson@2x-mob.jpg 2x
-          "
-          media="(max-width: 767px)"
-        /> -->
       <img
         srcset="
-          ./img/header/Jefferson@1x-mob.jpg 1x,
-          ./img/header/Jefferson@2x-mob.jpg 2x
+          ./img/header/Jefferson@1x.png 1x,
+          ./img/header/Jefferson@2x.png 2x
         "
-        src="../img/header/Jefferson@1x-tab.jpg"
+        src="./img/header/Jefferson.png"
         alt="my-photo"
         class="header-img"
       />
-      <!-- </picture> -->
+      <!-- <svg width="84" height="19">
+        <use href="./img/icons.svg#icon-jefferson"></use>
+      </svg> -->
       <svg
         width="84"
         height="19"
@@ -81,9 +62,28 @@
         />
       </svg>
     </a>
-    <button type="button" class="header-menu-btn">Menu</button>
+    <div class="dropdown-menu-wrapper">
+      <button type="button" class="header-menu-btn">Menu</button>
+      <ul class="dropdown-menu-list">
+        <li class="dropdown-menu-item">
+          <a class="dropdown-menu-link" href="#about-me">About Me</a>
+        </li>
+        <li class="dropdown-menu-item">
+          <a class="dropdown-menu-link" href="#benefits">Benefits</a>
+        </li>
+        <li class="dropdown-menu-item">
+          <a class="dropdown-menu-link" href="#projects">Projects</a>
+        </li>
+        <li class="dropdown-menu-item">
+          <a class="dropdown-menu-link" href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </div>
     <a href="#footer" class="header-order-project-btn">Order the project</a>
     <button type="button" class="header-open-menu-btn">
+      <!-- <svg width="24" height="12">
+        <use href="./img/icons.svg#icon-Icon-burger"></use>
+      </svg> -->
       <svg
         width="24"
         height="12"

@@ -68,6 +68,10 @@ input:focus {
   border-color: rgba(250, 250, 250, 0.5);
 }
 
+.mail-input {
+  margin-top: 63px;
+}
+
 .email-container {
   display: flex;
   flex-direction: column;
@@ -187,7 +191,7 @@ input:focus {
   margin-bottom: 16px;
 }
 
-.modal-text {
+.modal-window-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -197,6 +201,11 @@ input:focus {
 }
 
 @media only screen and (min-width: 768px) {
+  .footer {
+    padding-top: 80px;
+    padding-bottom: 169px;
+  }
+
   .footer-img {
     width: 70px;
     height: 70px;
@@ -218,6 +227,9 @@ input:focus {
     width: 245px;
     margin-top: 64px;
     margin-bottom: 0px;
+  }
+  .mail-input {
+    margin-top: 64px;
   }
 
   .submit-btn {
@@ -250,6 +262,9 @@ input:focus {
   }
 }
 @media only screen and (min-width: 1440px) {
+  .footer {
+    margin-left: 169px;
+  }
   input {
     width: 390px;
   }
