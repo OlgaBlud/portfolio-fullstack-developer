@@ -1,42 +1,26 @@
 .hero-section {
-    padding: 0 0;
     position: relative;
-    margin: 0 0;
+    background-color: rgba(28, 29, 32, 1);
+    background-image: url(../img/Hero/Hero_Mob.png);
+    background-repeat: no-repeat;
 }
 
-.h1h {
+.title-Hero {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 50px;
     line-height: 100%;
-    letter-spacing: 0.02em;
+    letter-spacing: -0.03em;
     text-transform: uppercase;
     color: var(--main-text);
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 212px;
+    padding-top: 281px;
+    padding-bottom: 212px;
 }
 
-.div1 {
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    padding-bottom: 32px;
-    height: 812px;
-    background-color: rgba(28, 29, 32, 1);
-    background-image: url(../img/Hero/Hero_Mob.png);
-    background-repeat: no-repeat;
-    max-width: 767px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.ulHero {
+.social-links-hero {
     gap: 4px;
-    height: 37px;
     display: flex;
-    margin-left: auto;
+    justify-content: end;
 }
 
 .aHero {
@@ -50,7 +34,7 @@
 .liIG {
     border: 1px solid rgba(250, 250, 250, 0.2);
     border-radius: 60px;
-    padding: 10px 12px;
+    padding: 10px 11px;
     width: 37px;
     height: 37px;
 }
@@ -62,7 +46,7 @@
 .liFB {
     border: 1px solid rgba(250, 250, 250, 0.2);
     border-radius: 60px;
-    padding: 10px;
+    padding: 9px;
     width: 37px;
     height: 37px;
 }
@@ -74,7 +58,7 @@
 .liYT {
     border: 1px solid rgba(250, 250, 250, 0.2);
     border-radius: 60px;
-    padding: 10px 11px;
+    padding: 10px 8px;
     width: 37px;
     height: 37px;
 }
@@ -86,7 +70,7 @@
 .liGH {
     border: 1px solid rgba(250, 250, 250, 0.2);
     border-radius: 60px;
-    padding: 10px 8px;
+    padding: 9px 7px;
     width: 37px;
     height: 37px;
 }
@@ -98,7 +82,7 @@
 .liEmail {
     border: 1px solid rgba(250, 250, 250, 0.2);
     border-radius: 60px;
-    padding: 10px 12px;
+    padding: 9px 11px;
     height: 37px;
 }
 
@@ -110,24 +94,24 @@
     width: auto;
 }
 
+@media (max-width: 374px) {
+    .title-Hero{
+        padding-bottom: 180px;
+    }
+}
+
 @media (min-width: 768px) {
-    .div1 {
-        height: 1024px;
+    .hero-section {
         background-image: url(../img/Hero/Hero_Tabl.png);
-        margin-left: 0;
-        max-width: 1439px
     }
 
-    .h1h {
+    .title-Hero {
         line-height: 90px;
         font-size: 90px;
         letter-spacing: -0.03em;
-        margin-bottom: 187px;
-        margin-left: 32px;
     }
 
-    .ulHero {
-        width: auto;
+    .social-links-hero {
         gap: 8px;
     }
 
@@ -140,13 +124,14 @@
 }
 
 @media (min-width: 1440px) {
-    .div1 {
-        height: 900px;
+    .hero-section {
+        padding-top: 300px;
+        padding-bottom: 32px;
         background-image: url(../img/Hero/Hero_PC.png);
-        min-width: 1440px;
+        background-size: cover;
     }
 
-    .h1h {
-        margin-bottom: 243px;
+    .title-Hero {
+        padding-bottom: 243px;
     }
 }
