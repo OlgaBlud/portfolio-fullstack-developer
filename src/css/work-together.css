@@ -1,7 +1,3 @@
-.footer {
-  padding: 32px 0px;
-}
-
 .top-footer {
   display: flex;
 }
@@ -263,6 +259,9 @@ input:focus {
   }
 }
 @media only screen and (min-width: 1440px) {
+  .footer {
+    margin-left: 169px;
+  }
   input {
     width: 390px;
   }
