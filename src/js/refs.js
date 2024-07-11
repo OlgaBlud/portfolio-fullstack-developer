@@ -8,7 +8,7 @@ export const refs = {
   skillsList: document.querySelector('.skills-list'),
   aboutMeList: document.querySelector('.about-me-list'),
   skillsSwiper: document.querySelector('.skills-swiper'),
-  marqueeLine: document.querySelectorAll('.marquee__line'),
+  animateElements: document.querySelectorAll('.marquee__line'),
   coversSection: document.querySelector('.covers-section'),
   faqList: document.querySelector('.faq-list'),
   dropdownMenuList: document.querySelector('.dropdown-menu-list'),
