@@ -263,7 +263,10 @@ input:focus {
 }
 @media only screen and (min-width: 1440px) {
   .footer {
-    margin-left: 169px;
+    margin-left: 196px;
+    margin-right: 196px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   input {
     width: 390px;
