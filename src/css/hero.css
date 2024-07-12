@@ -13,7 +13,7 @@
     line-height: 100%;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    padding-bottom: 212px;
+    margin-bottom: 212px;
 }
 
 .social-links-hero {
@@ -95,7 +95,7 @@
 
 @media (max-width: 374px) {
     .title-Hero{
-        padding-bottom: 180px;
+        margin-bottom: 180px;
     }
 }
 
@@ -131,6 +131,6 @@
     }
 
     .title-Hero {
-        padding-bottom: 243px;
+        margin-bottom: 243px;
     }
 }
