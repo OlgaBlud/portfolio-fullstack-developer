@@ -1,9 +1,14 @@
 .hero-section {
     position: relative;
-    background-color: rgba(28, 29, 32, 1);
     background-image: url(../img/Hero/Hero_Mob.png);
     background-repeat: no-repeat;
     padding-top: 281px;
+    padding-bottom: 0px;
+}
+
+.container-hero{
+    padding-bottom: 32px;
+    max-width: 767px;
 }
 
 .title-Hero {
@@ -101,8 +106,12 @@
 
 @media (min-width: 768px) {
     .hero-section {
-        padding-top: 300px;
+        padding-top: 243px;
         background-image: url(../img/Hero/Hero_Tabl.png);
+    }
+
+    .container-hero{
+            max-width: 1439px;
     }
 
     .title-Hero {
@@ -125,7 +134,6 @@
 
 @media (min-width: 1440px) {
     .hero-section {
-        padding-bottom: 32px;
         background-image: url(../img/Hero/Hero_PC.png);
         background-size: cover;
     }
