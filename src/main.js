@@ -7,3 +7,4 @@ import './js/covers';
 import './js/faq';
 import './js/work-together';
 import './js/project';
+import './js/project-swiper.js';
