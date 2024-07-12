@@ -1,7 +1,3 @@
-.footer {
-  padding: 32px 0px;
-}
-
 .top-footer {
   display: flex;
 }
@@ -232,6 +228,9 @@ input:focus {
     margin-top: 64px;
     margin-bottom: 0px;
   }
+  .mail-input {
+    margin-top: 64px;
+  }
 
   .submit-btn {
     min-width: 150px;
@@ -263,6 +262,12 @@ input:focus {
   }
 }
 @media only screen and (min-width: 1440px) {
+  .footer {
+    margin-left: 196px;
+    margin-right: 196px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   input {
     width: 390px;
   }

@@ -2,6 +2,8 @@ import { refs } from './refs';
 import Swiper from 'swiper/bundle';
 
 new Swiper(refs.projectsList, {
+  direction: 'horizontal',
+  loop: true,
   touch: true,
   slidesPerView: 1,
   slideClass: 'project-swiper-slide',
@@ -14,17 +16,5 @@ new Swiper(refs.projectsList, {
   keyboard: {
     enabled: true,
     onlyInViewport: false,
-  },
-  // addition
-  spaceBetween: 16,
-  breakpoints: {
-    768: { spaceBetween: 64 },
-  },
-  keyboard: {
-    enabled: true,
-    onlyInViewport: true,
-  },
-  mousewheel: {
-    invert: true,
   },
 });

@@ -45,11 +45,14 @@
     text-align: center;
     border: none;
     background-color: transparent;
+    padding: 10px;
+    width: 60px;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: -0.02em;
     text-decoration: underline;
     color: #fafafa;
+    margin-bottom: 8px;
   }
   .dropdown-menu-list {
     position: absolute;
@@ -58,6 +61,11 @@
     pointer-events: none;
     transition: opacity 250ms ease-in-out;
   }
+  .dropdown-menu-item:hover {
+    color: #ed3b44;
+    text-decoration: underline;
+  }
+
   .show {
     opacity: 1;
     pointer-events: auto;

@@ -3,6 +3,7 @@
     background-color: rgba(28, 29, 32, 1);
     background-image: url(../img/Hero/Hero_Mob.png);
     background-repeat: no-repeat;
+    padding-top: 281px;
 }
 
 .title-Hero {
@@ -12,8 +13,6 @@
     line-height: 100%;
     letter-spacing: -0.03em;
     text-transform: uppercase;
-    color: var(--main-text);
-    padding-top: 281px;
     padding-bottom: 212px;
 }
 
@@ -102,6 +101,7 @@
 
 @media (min-width: 768px) {
     .hero-section {
+        padding-top: 300px;
         background-image: url(../img/Hero/Hero_Tabl.png);
     }
 
@@ -125,7 +125,6 @@
 
 @media (min-width: 1440px) {
     .hero-section {
-        padding-top: 300px;
         padding-bottom: 32px;
         background-image: url(../img/Hero/Hero_PC.png);
         background-size: cover;
