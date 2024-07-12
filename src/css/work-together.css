@@ -228,12 +228,13 @@ input:focus {
   }
 
   input {
-    width: 245px;
+    width: 240px;
     margin-top: 64px;
     margin-bottom: 0px;
   }
   .mail-input {
     margin-top: 64px;
+    margin-right: 32px;
   }
 
   .submit-btn {
