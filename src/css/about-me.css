@@ -9,18 +9,18 @@
 }
 /* end reset styles accordion */
 
-.about-me-wrap {
+.about-me-section {
   padding-top: 64px;
+}
+.about-me-wrap {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  max-width: 343px;
 }
 /* general block */
 .about-me-general-block {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   gap: 16px;
 }
 .about-me-general-text {
@@ -105,7 +105,6 @@
 @media only screen and (min-width: 768px) {
   .about-me-wrap {
     gap: 64px;
-    max-width: 704px;
   }
   .about-me-general-text {
     padding: 64px;
@@ -119,10 +118,10 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .about-me-wrap {
-    gap: 96px;
-    max-width: 1376px;
+  .about-me-section {
+    padding-top: 96px;
   }
+
   .about-me-general-block {
     flex-direction: row;
   }
