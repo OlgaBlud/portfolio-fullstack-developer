@@ -102,6 +102,9 @@
     .title-Hero{
         margin-bottom: 180px;
     }
+    .container-hero {
+        padding-bottom: 14px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -111,7 +114,7 @@
     }
 
     .container-hero{
-            max-width: 1439px;
+        max-width: 1439px;
     }
 
     .title-Hero {
