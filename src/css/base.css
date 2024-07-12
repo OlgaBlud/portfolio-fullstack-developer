@@ -2,6 +2,9 @@
   font-family: 'InterTight-VariableFont_wght';
   src: url('../fonts/InterTight-VariableFont_wght.ttf');
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'InterTight-VariableFont_wght', sans-serif;
