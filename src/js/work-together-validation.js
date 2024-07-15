@@ -1,5 +1,6 @@
 const emailInput = document.querySelector('.mail-input');
 const errEl = document.querySelector('.email-err');
+const btnEl = document.querySelector('."submit-btn');
 
 emailInput.addEventListener('input', () => {
   const value = emailInput.value.trim();

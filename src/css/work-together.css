@@ -32,6 +32,10 @@
   color: #ed3b44;
 }
 
+.email-container {
+  position: relative;
+}
+
 input {
   min-width: 343px;
   height: 44px;
@@ -80,6 +84,9 @@ input:focus {
 }
 
 .email-err {
+  position: absolute;
+  left: 1px;
+  top: 106px;
   margin-top: 4px;
   font-weight: 500;
   font-size: 14px;
@@ -114,7 +121,7 @@ input:focus {
 .contact-list-btn {
   border: 1px solid rgba(250, 250, 250, 0.2);
   border-radius: 60px;
-  padding: 10px 12px;
+  padding: 10px 0px;
   background-color: transparent;
 }
 
@@ -123,6 +130,7 @@ input:focus {
   font-size: 14px;
   letter-spacing: -0.02em;
   color: #fafafa;
+  padding: 10px 12px;
 }
 
 .contact-list-btn:hover,
@@ -204,8 +212,7 @@ input:focus {
 
 @media only screen and (min-width: 768px) {
   .footer-container {
-    padding:80px 32px 169px ;
-    
+    padding: 80px 32px 169px;
   }
 
   .footer-img {
@@ -222,7 +229,6 @@ input:focus {
   .footer-form {
     display: flex;
     justify-content: space-between;
-   
   }
 
   input {
@@ -251,10 +257,12 @@ input:focus {
   }
 
   .contact-list-btn {
-    padding: 18px 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
-
   .contact-list-link {
+    font-size: 16px;
+    padding: 16px 32px;
     font-size: 16px;
   }
 
@@ -265,11 +273,11 @@ input:focus {
   }
 }
 @media only screen and (min-width: 1440px) {
-  .footer-container{
+  .footer-container {
     max-width: 1048px;
-    margin:auto; 
+    margin: auto;
   }
-  .email-container{
+  .input-container {
     display: flex;
   }
   input {
@@ -277,15 +285,10 @@ input:focus {
   }
 
   .footer-form {
-    
     margin: 0;
   }
 
   .mail-input {
     margin-right: 32px;
   }
-
-  /* .submit-btn {
-    margin-left: 86px;
-  } */
 }

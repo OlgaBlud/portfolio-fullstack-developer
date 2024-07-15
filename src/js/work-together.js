@@ -55,31 +55,37 @@ formEl.addEventListener('submit', async e => {
     formEl.reset();
     localStorage.removeItem('UserData');
   }
-  try {
-    const data = await postForm(emailValue, messageValue);
-    if (data.title === 'Thank you for your interest in cooperation!') {
-      backdrop.classList.add('modal-is-open');
-      formEl.reset();
+  if (emailValue === '') {
+    errEl.innerHTML = 'Please, enter your email ';
+    emailInput.style.borderBottomColor = 'red';
+    errEl.style.color = 'red';
+  } else {
+    try {
+      const data = await postForm(emailValue, messageValue);
+      if (data.title === 'Thank you for your interest in cooperation!') {
+        backdrop.classList.add('modal-is-open');
+        formEl.reset();
 
-      backdrop.addEventListener('click', e => {
-        if (e.target === e.currentTarget) {
+        backdrop.addEventListener('click', e => {
+          if (e.target === e.currentTarget) {
+            backdrop.classList.remove('modal-is-open');
+          }
+        });
+        closeBtn.addEventListener('click', e => {
           backdrop.classList.remove('modal-is-open');
-        }
-      });
-      closeBtn.addEventListener('click', e => {
-        backdrop.classList.remove('modal-is-open');
-      });
+        });
 
-      window.addEventListener('keydown', e => {
-        if (e.code === 'Escape') {
-          backdrop.classList.remove('modal-is-open');
-        }
-      });
-    } else {
-      alert('Something went wrong,');
+        window.addEventListener('keydown', e => {
+          if (e.code === 'Escape') {
+            backdrop.classList.remove('modal-is-open');
+          }
+        });
+      } else {
+        alert('Something went wrong,');
+      }
+    } catch (error) {
+      console.log(error);
     }
-  } catch (error) {
-    console.log(error);
   }
 });
 
